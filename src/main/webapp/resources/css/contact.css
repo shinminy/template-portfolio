@@ -7,7 +7,7 @@
 }
 
 .map{
-	width: 100%;
+	width: 1100px;
 	margin: 20px auto;
 	overflow: hidden;
 	text-align: center;
@@ -80,4 +80,48 @@
 	margin: 10px;
 	background-color: #838CF5;
 	color: white;
+}
+
+/* Responsible */
+@media (max-width: 728px) and ( min-width : 500px){
+	.contact_container{
+	width:100%;
+	}
+	
+	.contact_txt .contact_info{
+	box-sizing: border-box;
+	width: 100%;
+	margin: 20px auto;	
+	}
+	
+	.contact_txt .contact_msg{
+	box-sizing: border-box;
+	width: 100%;
+	margin: 20px auto;
+	}
+	
+	.contact_info_title{
+	font-size: 16px;
+	}
+}
+@media ( max-width : 500px) {
+	.contact_container{
+	width:100%;
+	}
+	
+	.contact_txt .contact_info{
+	box-sizing: border-box;
+	width: 100%;
+	margin: 20px auto;	
+	}
+	
+	.contact_txt .contact_msg{
+	box-sizing: border-box;
+	width: 100%;
+	margin: 20px auto;
+	}
+	
+	.contact_info_title{
+	font-size: 16px;
+	}
 }
