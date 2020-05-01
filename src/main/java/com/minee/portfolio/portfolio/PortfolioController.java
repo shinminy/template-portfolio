@@ -17,7 +17,7 @@ import com.minee.portfolio.common.ClientUtils;
 public class PortfolioController {
 	
 	private final Logger logger = LoggerFactory.getLogger(PortfolioController.class);
-	private final SimpleDateFormat sdf = new SimpleDateFormat ( "yyyy-MM-dd HH:mm:ss");
+	private final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 	
 	@RequestMapping(value = "portfolio", method = RequestMethod.GET)
 	public String portfolio(HttpServletRequest request) {
