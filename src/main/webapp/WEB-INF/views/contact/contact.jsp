@@ -1,19 +1,13 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ include file = "/WEB-INF/views/contact/contactMap.jsp"%>
-<link rel="stylesheet" type="text/css" href="resources/css/contact.css" />
-<title>Minee - Contact</title>
 </head>
 <body onload="initialize()">
 	<div class=contact_container>
-		<div class ="map" id="map_place"></div>
+		<div class ="map" id="map_canvas"></div>
 		<div class = contact_txt>
 			<div class= contact_info>
 				<h3 class=contact_info_title>주소</h3>
-				<pclass=contact_info_content>서울 서초구 서초대로73길 38 2층</p>
+				<p class=contact_info_content>서울 서초구 서초대로73길 38 2층</p>
 				<h3 class=contact_info_title>Mail</h3>
 				<p class=contact_info_content>ceres.minee@gmail.com</p>
 				<h3 class=contact_info_title>SNS</h3>
