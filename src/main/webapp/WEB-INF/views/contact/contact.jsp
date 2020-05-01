@@ -3,14 +3,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+<%@ include file = "/WEB-INF/views/contact/contactMap.jsp"%>
 <link rel="stylesheet" type="text/css" href="resources/css/contact.css" />
 <title>Minee - Contact</title>
 </head>
-<body>
+<body onload="initialize()">
 	<div class=contact_container>
-		<div class ="map" id="map">
-			<img alt="place" src="http://placehold.it/1256x400">
-		</div>
+		<div class ="map" id="map_place"></div>
 		<div class = contact_txt>
 			<div class= contact_info>
 				<h3 class=contact_info_title>주소</h3>
