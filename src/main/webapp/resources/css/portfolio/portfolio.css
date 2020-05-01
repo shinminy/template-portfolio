@@ -1,1 +1,21 @@
 @charset "UTF-8";
+
+.portfolio_container {
+	width: 80%;
+	margin: auto;
+}
+
+.portfolio_img {
+	display: inline-block;
+	width: 42%;
+	height: auto;
+	margin: 50px 3.7%;
+}
+
+@media ( max-width : 800px) {
+	.portfolio_img {
+		width: 91.4%;
+		height: auto;
+		margin: 50px 3.7%;
+	}
+}
