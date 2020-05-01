@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+.templetJ_container{
+	width: 80%;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+.templetJ_vid{
+	width: 100%;
+	position: relative;
+	
+	/*16:9비율 유지*/
+	padding-bottom: 56.25%; 
+}
+
+.templetJ_vid iframe{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.templetJ_one:after{
+	clear:both;
+	display:block;
+	content:'';
+	width: 100%;
+}
+.templetJ_one .templetJ_desc{
+	float: left;
+	box-sizing: border-box;
+	width: 70%;
+	margin: 20px auto;
+}
+
+.templetJ_one .templetJ_img{
+	float: right;
+	box-sizing: border-box;
+	width: 30%;
+	height: 30%;
+	margin: 20px auto;
+}
+
+.templetJ_two:after{
+	clear:both;
+	display:block;
+	content:'';
+	width: 100%;
+}
+.templetJ_two .templetJ_img{
+	float: left;
+	box-sizing: border-box;
+	width: 30%;
+	height: 30%;
+	margin: 20px auto;
+}
+
+.templetJ_two .templetJ_desc{
+	float: left;
+	box-sizing: border-box;
+	width: 70%;
+	margin: 20px auto;
+}
+
+.templetJ_img{
+	width: 100%;
+	margin: 10px auto;
+}
+
+
+@media ( min-width : 501px) and (max-width:840px) {
+	.templetJ_capture{
+	width: 100%;
+	}
+}
+
+@media ( max-width : 500px) {
+	.templetJ_container{
+	width: 100%;
+	}
+	
+	.templetJ_vid iframe{
+	position: absolute;
+	width:	100%;
+	height: 263px;
+	}
+	
+	.templetJ_descL{
+	box-sizing: border-box;
+	width: 100%;
+	margin: 20px auto;
+	}	
+
+	.templetJ_imgR{
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	margin: 20px auto;
+	}
+	
+	.templetJ_capture{
+	width:100%;
+	}
+}

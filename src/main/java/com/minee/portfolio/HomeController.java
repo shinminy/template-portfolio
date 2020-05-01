@@ -40,10 +40,5 @@ public class HomeController {
 	public String showMain() {
 		return "main/main";
 	}
-	
-	@RequestMapping(value = "contact", method = RequestMethod.GET)
-	public String Contact() {
-		return "contact/contact";
-	}
-	
+
 }

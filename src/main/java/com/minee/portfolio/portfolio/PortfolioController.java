@@ -26,5 +26,10 @@ public class PortfolioController {
 		
 		return "portfolio/portfolio";
 	}
+	
+	@RequestMapping(value = "portfolioj", method = RequestMethod.GET)
+	public String Contact() {
+		return "portfolio/portfolioJ";
+	}
 
 }
