@@ -14,12 +14,12 @@
 .member_desc {
 	width: 350px;
 	margin: auto;
-	text-align: initial;
+	text-align: left;
 }
 
 .pic_on_left, .pic_on_right {
 	display: flex;
-	margin: 60px auto;
+	margin: 100px auto;
 }
 
 .pic_on_left .member_img {
@@ -37,7 +37,7 @@
 .join_container {
 	display: flex;
 	width: 200px;
-	margin: 60px auto;
+	margin: 100px auto;
 }
 
 .join_text {
@@ -57,4 +57,34 @@
 	color: white;
 	font-weight: bolder;
 	font-size: 20px;
+}
+
+@media ( max-width : 800px) {
+	.about_container {
+		width: 100%;
+		margin: auto;
+		text-align: center;
+	}
+	
+	.pic_on_left, .pic_on_right {
+		display: block;
+		width: 80%;
+	}
+	
+	.pic_on_left .member_img {
+		margin-right: 0;
+	}
+	
+	.pic_on_right .member_img {
+		margin-left: 0;
+	}
+	
+	.member_img {
+		width: 100%;
+		height: auto;
+	}
+	
+	.member_desc {
+		width: 100%;
+	}
 }
