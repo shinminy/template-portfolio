@@ -9,7 +9,21 @@
 </head>
 <body>
 
-OK
+	<div class="portfolio_container">
+	
+		<a href="portfolio/templateA">
+			<img class="portfolio_img" alt="Amy's Portfolio" src="http://placehold.it/600x480" >
+		</a>
+	
+		<a href="portfolio/templateJ">
+			<img class="portfolio_img" alt="Jenny's Portfolio" src="http://placehold.it/600x480">
+		</a>
+	
+		<a href="portfolio/templateS">
+			<img class="portfolio_img" alt="Shin's Portfolio" src="http://placehold.it/600x480">
+		</a>
+	
+	</div>
 
 </body>
 </html>
