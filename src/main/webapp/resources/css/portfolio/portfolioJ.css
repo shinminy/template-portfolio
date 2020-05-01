@@ -84,18 +84,31 @@
 	height: 263px;
 	}
 	
-	.templetJ_descL{
-	box-sizing: border-box;
-	width: 100%;
-	margin: 20px auto;
-	}	
-
-	.templetJ_imgR{
+	.templetJ_one .templetJ_img{
 	box-sizing: border-box;
 	width: 100%;
 	height: 100%;
 	margin: 20px auto;
 	}
+	
+	.templetJ_one .templetJ_desc{
+	box-sizing: border-box;
+	width: 100%;
+	margin: 20px auto;
+	}
+	
+	.templetJ_two .templetJ_img{
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	margin: 20px auto;
+	}
+	
+	.templetJ_two .templetJ_desc{
+	box-sizing: border-box;
+	width: 100%;
+	margin: 20px auto;
+}
 	
 	.templetJ_capture{
 	width:100%;
