@@ -25,7 +25,7 @@
 				<h3 class=contact_info_title>메세지</h3>
 				<input class="msg" type="text" name="user_msg" placeholder="메세지"/>
 				
-				<input type="submit" value="전송">
+				<input type="submit" onclick="send_mail()" value="전송">
 			</form>
 			</div>
 		</div>

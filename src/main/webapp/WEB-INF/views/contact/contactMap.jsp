@@ -1,4 +1,6 @@
+<%@page import="com.minee.portfolio.contact.MailSend"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,4 +23,9 @@
 	   });
 	  }
 	 </script>
+	 <script>function send_mail(){
+		 <% MailSend ms = new MailSend();
+		 out.println("COMPLETE");
+		 %>
+	 }</script>
 	<title>Minee - Contact</title>
