@@ -1,11 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>MINEE - About</title>
-<link rel="stylesheet" type="text/css" href="resources/css/about/about.css" />
+<link rel="stylesheet" type="text/css"
+	href="resources/css/about/about.css" />
 </head>
 <body>
 
@@ -13,8 +14,8 @@
 
 		<div class="pic_on_left">
 
-			<img class="member_img" src="http://placehold.it/400x500"
-				alt="Profile picture">
+			<img class="member_img" alt="Profile picture"
+				src="http://placehold.it/400x500">
 
 			<div class="member_desc">
 				<h1>Amy</h1>
@@ -26,8 +27,8 @@
 
 		<div class="pic_on_right">
 
-			<img class="member_img" src="http://placehold.it/400x500"
-				alt="Profile picture">
+			<img class="member_img" alt="Profile picture"
+				src="http://placehold.it/400x500">
 
 			<div class="member_desc">
 				<h1>Jenny</h1>
@@ -39,8 +40,8 @@
 
 		<div class="pic_on_left">
 
-			<img class="member_img" src="http://placehold.it/400x500"
-				alt="Profile picture">
+			<img class="member_img" alt="Profile picture"
+				src="http://placehold.it/400x500">
 
 			<div class="member_desc">
 				<h1>Shin</h1>
@@ -52,8 +53,8 @@
 
 		<div class="pic_on_right">
 
-			<img class="member_img" src="http://placehold.it/400x500"
-				alt="Profile picture">
+			<img class="member_img" alt="Profile picture"
+				src="http://placehold.it/400x500">
 
 			<div class="member_desc">
 				<h1>대파</h1>
@@ -61,13 +62,13 @@
 			</div>
 
 		</div>
-		
+
 		<div class="join_container">
-			
+
 			<div class="join_text">Join Us</div>
-			
+
 			<a class="join_button" href="contact">→</a>
-			
+
 		</div>
 
 	</div>

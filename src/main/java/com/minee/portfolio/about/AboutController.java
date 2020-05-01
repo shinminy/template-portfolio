@@ -17,7 +17,7 @@ import com.minee.portfolio.common.ClientUtils;
 public class AboutController {
 	
 	private final Logger logger = LoggerFactory.getLogger(AboutController.class);
-	private final SimpleDateFormat sdf = new SimpleDateFormat ( "yyyy-MM-dd HH:mm:ss");
+	private final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 	
 	@RequestMapping(value = "about", method = RequestMethod.GET)
 	public String about(HttpServletRequest request) {
