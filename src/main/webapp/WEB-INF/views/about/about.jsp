@@ -1,0 +1,76 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MINEE - About</title>
+<link rel="stylesheet" type="text/css" href="resources/css/about/about.css" />
+</head>
+<body>
+
+	<div class="about_container">
+
+		<div class="pic_on_left">
+
+			<img class="member_img" src="http://placehold.it/400x500"
+				alt="Profile picture">
+
+			<div class="member_desc">
+				<h1>Amy</h1>
+				<p>멋진 Amy</p>
+				<a href="mailto:davinchi0928@gmail.com">davinchi0928@gmail.com</a>
+			</div>
+
+		</div>
+
+		<div class="pic_on_right">
+
+			<img class="member_img" src="http://placehold.it/400x500"
+				alt="Profile picture">
+
+			<div class="member_desc">
+				<h1>Jenny</h1>
+				<p>멋진 Jenny</p>
+				<a href="mailto:je028770@gmail.com">je028770@gmail.com</a>
+			</div>
+
+		</div>
+
+		<div class="pic_on_left">
+
+			<img class="member_img" src="http://placehold.it/400x500"
+				alt="Profile picture">
+
+			<div class="member_desc">
+				<h1>Shin</h1>
+				<p>멋진 Shin</p>
+				<a href="mailto:smy11go@gmail.com">smy11go@gmail.com</a>
+			</div>
+
+		</div>
+
+		<div class="pic_on_right">
+
+			<img class="member_img" src="http://placehold.it/400x500"
+				alt="Profile picture">
+
+			<div class="member_desc">
+				<h1>대파</h1>
+				<p>멋진 대파</p>
+			</div>
+
+		</div>
+		
+		<div class="join_container">
+			
+			<div class="join_text">Join Us</div>
+			
+			<a class="join_button" href="contact">→</a>
+			
+		</div>
+
+	</div>
+
+</body>
+</html>
