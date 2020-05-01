@@ -27,16 +27,9 @@ public class PortfolioController {
 		return "portfolio/portfolio";
 	}
 	
-
 	@RequestMapping(value = "portfolioj", method = RequestMethod.GET)
 	public String Contact() {
 		return "portfolio/portfolioJ";
 	}
-
-	@RequestMapping(value = "portfolioA", method = RequestMethod.GET)
-	public String portfolioA() {
-		return "portfolio/portfolioA";
-	}
-
 
 }
