@@ -27,15 +27,23 @@ public class PortfolioController {
 		return "portfolio/portfolio";
 	}
 	
-	@RequestMapping(value = "portfolioj", method = RequestMethod.GET)
+	@RequestMapping(value = "portfolio/portfolio-a", method = RequestMethod.GET)
+	public String showPortfolioA() {
+		System.out.println("A!");
+		return "portfolio/portfolioA";
+	}
+	
+	@RequestMapping(value = "portfolio/portfolio-j", method = RequestMethod.GET)
 	public String Contact() {
 		return "portfolio/portfolioJ";
 	}
 	
-	@RequestMapping(value = "portfolioa", method = RequestMethod.GET)
-	public String showPortfolioA() {
-		System.out.println("A!");
-		return "portfolio/portfolioA";
+	@RequestMapping(value = "portfolio/portfolio-s", method = RequestMethod.GET)
+	public String portfolioS(HttpServletRequest request) {
+		String currentTime = sdf.format(Calendar.getInstance().getTime());
+		logger.info("[{}] {} accesses to Portfolio S page.", currentTime, ClientUtils.getRemoteIP(request));
+		
+		return "portfolio/portfolioS";
 	}
 
 }

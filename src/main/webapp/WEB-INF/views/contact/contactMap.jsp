@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="resources/css/contact.css" />
+	<link rel="stylesheet" type="text/css" href="/resources/css/contact.css" />
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-L4_VOT050fUwW54SAjLRVV-LURYm0Ok"></script>
 	 <script>
 	  function initialize() {

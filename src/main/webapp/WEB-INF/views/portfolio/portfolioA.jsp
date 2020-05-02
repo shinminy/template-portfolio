@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>MINEE - PortfolioA</title>
-<link rel="stylesheet" type="text/css" href="resources/css/reset.css" />
-<link rel="stylesheet" type="text/css" href="resources/css/portfolio/portfolioA.css" />
+<title>MINEE - Portfolio - A</title>
+<link rel="stylesheet" type="text/css" href="/resources/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/portfolio/portfolioA.css" />
 
-<link rel="stylesheet" type="text/css" href="resources/css/portfolio/portfolio.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/portfolio/portfolio.css" />
 </head>
 <body>
 	<div class="templateA_container">
@@ -20,7 +20,7 @@
 		</div>
 		<div class="templateA_section">
 			<div class="templateA_section_content">
-				<img class="templateA_img" src="resources/img/portfolio/portfolioA/mac_pjMain.png">
+				<img class="templateA_img" src="/resources/img/portfolio/portfolioA/mac_pjMain.png">
 				<div class="templateA_desc">
 					<p>Project</p>
 					<p>쉽고 빠른 프로젝트 관리</p>
@@ -30,7 +30,7 @@
 		</div>
 		<div class="templateA_section">
 			<div class="templateA_section_content">
-				<img class="templateA_img" src="resources/img/portfolio/portfolioA/mac_chatMain.png">
+				<img class="templateA_img" src="/resources/img/portfolio/portfolioA/mac_chatMain.png">
 				<div class="templateA_desc">
 					<p>Chatting</p>
 					<p>멤버들과 실시간 채팅</p>
@@ -40,7 +40,7 @@
 		</div>
 		<div class="templateA_section">
 			<div class="templateA_section_content">
-				<img class="templateA_img" src="resources/img/portfolio/portfolioA/mac_calMain.png">
+				<img class="templateA_img" src="/resources/img/portfolio/portfolioA/mac_calMain.png">
 				<div class="templateA_desc">
 					<p>Calendar</p>
 					<p>모든 일정을 간편하게 관리</p>
