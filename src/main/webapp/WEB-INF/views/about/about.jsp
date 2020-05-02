@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MINEE - About</title>
-<link rel="stylesheet" type="text/css"
-	href="resources/css/about/about.css" />
+<link rel="stylesheet" type="text/css" href="resources/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="resources/css/about/about.css" />
 </head>
 <body>
 
