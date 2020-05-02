@@ -31,5 +31,11 @@ public class PortfolioController {
 	public String Contact() {
 		return "portfolio/portfolioJ";
 	}
+	
+	@RequestMapping(value = "portfolioa", method = RequestMethod.GET)
+	public String showPortfolioA() {
+		System.out.println("A!");
+		return "portfolio/portfolioA";
+	}
 
 }
