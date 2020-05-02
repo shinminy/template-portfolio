@@ -15,12 +15,12 @@
 	
 		<a href="portfolio/portfolio-a">
 			<img class="portfolio_img" alt="Amy's portfolio"
-				src="http://placehold.it/600x480" >
+				src="/resources/img/portfolio/portfolioA/mac_pjMain.png" >
 		</a>
 	
 		<a href="portfolio/portfolio-j">
 			<img class="portfolio_img" alt="Jenny's portfolio"
-				src="http://placehold.it/600x480">
+				src="/resources/img/portfolioj/forest1.png">
 		</a>
 	
 		<a href="portfolio/portfolio-s">

@@ -25,6 +25,9 @@
 		
 		<div class="templateS_mobile_slide">
 			
+			<img class="templateS_android_frame"
+				src="/resources/img/portfolio/portfolioS/android_frame.png">
+			
 			<div class="templateS_mobile_slide_imgs">
 				
 				<img class="templateS_mobile_slide_img" alt="Main image"
@@ -56,16 +59,16 @@
 
 		<div class="templateS_screenshots fade_in_up_with_scrolling">
 		
-			<img class="templateS_img_first_left templateS_mobile_img" alt="Search image"
+			<img class="templateS_img_first_left templateS_mobile_img templateS_mobile_bg" alt="Search image"
 				src="/resources/img/portfolio/portfolioS/WILL-search.png">
 				
-			<img class="templateS_img_first_right templateS_mobile_img" alt="Popup image"
+			<img class="templateS_img_first_right templateS_mobile_img templateS_mobile_bg" alt="Popup image"
 				src="/resources/img/portfolio/portfolioS/WILL-popup.png">
 				
-			<img class="templateS_img_second_left templateS_mobile_img" alt="Task management image"
+			<img class="templateS_img_second_left templateS_mobile_img templateS_mobile_bg" alt="Task management image"
 				src="/resources/img/portfolio/portfolioS/WILL-task_management.png">
 				
-			<img class="templateS_img_second_right templateS_mobile_img" alt="Group management image"
+			<img class="templateS_img_second_right templateS_mobile_img templateS_mobile_bg" alt="Group management image"
 				src="/resources/img/portfolio/portfolioS/WILL-group_management.png">
 				
 		</div>

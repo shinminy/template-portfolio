@@ -21,7 +21,7 @@
 			<div class="member_desc">
 				<h1>Amy</h1>
 				<p>멋진 Amy</p>
-				<a href="mailto:davinchi0928@gmail.com">davinchi0928@gmail.com</a>
+				<p><a href="mailto:davinchi0928@gmail.com">davinchi0928@gmail.com</a></p>
 			</div>
 
 		</div>
@@ -34,7 +34,7 @@
 			<div class="member_desc">
 				<h1>Jenny</h1>
 				<p>멋진 Jenny</p>
-				<a href="mailto:je028770@gmail.com">je028770@gmail.com</a>
+				<p><a href="mailto:je028770@gmail.com">je028770@gmail.com</a></p>
 			</div>
 
 		</div>
@@ -47,7 +47,7 @@
 			<div class="member_desc">
 				<h1>Shin</h1>
 				<p>멋진 Shin</p>
-				<a href="mailto:smy11go@gmail.com">smy11go@gmail.com</a>
+				<p><a href="mailto:smy11go@gmail.com">smy11go@gmail.com</a></p>
 			</div>
 
 		</div>

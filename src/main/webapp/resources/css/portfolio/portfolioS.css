@@ -18,8 +18,8 @@ p {
 	opacity: 0;
 }
 
-.templateS_mobile_slide, .templateS_mobile_img {
-	filter: drop-shadow(0 16px 16px #999);
+.templateS_mobile_slide, .templateS_mobile_img, .google_play_badge {
+	filter: drop-shadow(0 16px 16px darkgrey);
 }
 
 .templateS_container {
@@ -86,6 +86,14 @@ p {
 	-webkit-animation: fadeInUp 1s; /* Safari and Chrome */
 	-moz-animation: fadeInUp 1s; /* Firefox */
 	-o-animation: fadeInUp 1s; /* Opera */
+}
+.templateS_android_frame {
+	position: absolute;
+	left: 0;
+	width: 300px;
+	background-color: #757575;
+	background-image: url("/resources/img/portfolio/portfolioS/WILL-main.png");
+	background-size: contain;
 }
 .templateS_mobile_slide_imgs {
 	white-space: nowrap;
@@ -174,6 +182,14 @@ p {
 .templateS_img_second_right {
 	vertical-align: top;
 	margin-top: 160px;
+}
+
+.templateS_mobile_bg {
+	background-color: #757575;
+	background-image: url("/resources/img/portfolio/portfolioS/android_frame.png");
+	background-size: contain;
+	filter: drop-shadow(0 0 0 transparent);
+	box-shadow: 0 16px 32px 4px darkgrey;
 }
 
 .templateS_sub_title {
