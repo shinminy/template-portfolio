@@ -13,9 +13,11 @@
 }
 
 @media ( max-width : 800px) {
+	
 	.portfolio_img {
 		width: 91.4%;
 		height: auto;
 		margin: 50px 3.7%;
 	}
+	
 }
