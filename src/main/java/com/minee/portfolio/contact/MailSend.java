@@ -34,11 +34,11 @@ public class MailSend{
         try {
             msg.setSentDate(new Date());
             
-            msg.setFrom(new InternetAddress(senderMail, senderName));
+            msg.setFrom(new InternetAddress("ceres.minee@gmail.com", "Inquire"));
             InternetAddress to = new InternetAddress("ceres.minee@gmail.com");         
             msg.setRecipient(Message.RecipientType.TO, to);            
             msg.setSubject(senderName+"님의 문의입니다.", "UTF-8");            
-            msg.setText(senderMsg, "UTF-8");            
+            msg.setText(senderMsg+" 답장메일: "+senderMail, "UTF-8");            
             
             Transport.send(msg);
             

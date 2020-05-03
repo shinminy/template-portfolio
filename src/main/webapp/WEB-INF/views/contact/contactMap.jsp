@@ -1,6 +1,8 @@
 <%@page import="com.minee.portfolio.contact.MailSend"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-
+<% String name = request.getParameter("user_name");
+	String mail = request.getParameter("user_mail");
+	String msg = request.getParameter("user_msg");%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,7 +26,7 @@
 	  }
 	 </script>
 	 <script>function send_mail(){
-		 <% MailSend ms = new MailSend();
+		 <% MailSend ms = new MailSend(name,mail,msg);
 		 out.println("COMPLETE");
 		 %>
 	 }</script>
