@@ -16,7 +16,7 @@
 				<button class="is_btn" onclick="location.href=window.open('http://www.instagram.com/minee_ceres/')"></button>
 			</div>
 			<div class=contact_msg>
-			<form class="mail_form" action="MAILTO:ceres.minee@gmail.com" method="post">
+			<form class="mail_form" name="mailForm" method="get">
 			
 				<h3 class=contact_info_title>이름</h3>
 				<input type="text" name="user_name" placeholder="이름"/>
@@ -26,7 +26,7 @@
 				<input class="msg" type="text" name="user_msg" placeholder="메세지"/>
 				
 				<input type="submit" onclick="send_mail()" value="전송">
-			</form>
+			</form> 
 			</div>
 		</div>
 	</div>

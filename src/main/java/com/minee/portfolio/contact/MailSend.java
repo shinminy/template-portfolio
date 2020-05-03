@@ -18,7 +18,7 @@ public class MailSend{
 	
 	PasswordAuthentication pa;
 	
-	public MailSend(){
+	public MailSend(String senderName, String senderMail, String senderMsg){
 		Properties prop = System.getProperties();
         prop.put("mail.smtp.starttls.enable", "true");
         prop.put("mail.smtp.host", "smtp.gmail.com");
@@ -34,11 +34,11 @@ public class MailSend{
         try {
             msg.setSentDate(new Date());
             
-            msg.setFrom(new InternetAddress("ceres.minee@gmail.com", "VISITOR"));
+            msg.setFrom(new InternetAddress("ceres.minee@gmail.com",senderName));
             InternetAddress to = new InternetAddress("ceres.minee@gmail.com");         
             msg.setRecipient(Message.RecipientType.TO, to);            
-            msg.setSubject("제목", "UTF-8");            
-            msg.setText("안녕하세요 테스트 메일입니다.", "UTF-8");            
+            msg.setSubject(senderName+"님의 문의입니다.", "UTF-8");            
+            msg.setText(senderMsg+"\n답장할 메일: "+senderMail, "UTF-8");            
             
             Transport.send(msg);
             
