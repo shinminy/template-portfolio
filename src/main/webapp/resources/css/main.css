@@ -1,65 +1,60 @@
 @charset "UTF-8";
 
 body{
-	padding: 0px;
-	margin: 0px;
+	background-image: url("../img/main/main_bg.gif");
+	background-size: 100%;
+	color: white;
 }
-.main_container .box{
-	width: 100%;
+
+.main_container .section{
 	height: 100vh;
 	position: relative;
+	text-align: center;
 }
 
-
-.main_container .box p{
+.main_container .section > *{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform : translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 	text-align: center;
-	color: white;
-	width: 100%;
-}
-.main_container{
-	background-image: url("../img/main/main_bg.gif");
-	background-size: 100%;
-	background-color: red;
-}
-/*
-.section1,.section2{
-	background-size: 100%;
-}
-.section1:nth-child(1){
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/main/bg1.gif");
-}
-.section1:nth-child(2){
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg2.jpg");
-}
-.section1:nth-child(3){
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg3.jpg");
-}
-.section1:nth-child(4){
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg4.jpg");
-}
-.section1:nth-child(5){
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg5.jpeg");
-}
-.section2{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg6.jpg");
-}
-*/
-
-.main_container .box .section1_title{
-	font-size: 70px;
 }
 
-.main_container .box .section1_desc{
-	font-size: 15px;
-	font-weight: lighter;
+.section:nth-child(2) p{
+	font-weight: 100;
+	line-height: 300%;
 }
 
-.main_container .box .section2_desc{
-	font-size: 15px;
-	font-weight: lighter;
-	line-height: 150%;
+.section:nth-child(2) span[class ^= "fade_in_up_with_scrolling"] {
+	position: relative;
+	top: 80px;
+	opacity: 0;
+}
+
+@media ( min-width : 800px) {
+	
+	.section:nth-child(1) .title{
+		font-size: 100px;
+	}
+	
+	.section .desc{
+		font-size: 30px;
+		line-height: 300%;
+		font-weight: lighter;
+	}	
+
+}
+
+@media ( max-width : 800px) {
+
+	.section .title{
+		font-size: 70px;
+	}
+	
+	.section .desc{
+		font-size: 20px;
+		line-height: 100%;
+		font-weight: lighter;
+	}
+	
 }
