@@ -7,7 +7,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="/resources/css/contact.css" />
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-L4_VOT050fUwW54SAjLRVV-LURYm0Ok"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCt1dBoMQ4TbIL__e24JVMgpDPcjOXop0U"></script>
 	 <script>
 	  function initialize() {
 	   var myLatlng = new google.maps.LatLng(37.500709,127.024550);
@@ -26,8 +26,15 @@
 	  }
 	 </script>
 	 <script>function send_mail(){
-		 <% MailSend ms = new MailSend(name,mail,msg);
-		 out.println("COMPLETE");
+		 <% 
+		 if(name!=null && mail != null && msg != null && !(name.equals("")) 
+		 	&& !(mail.equals("")) && !(msg.equals(""))){
+		 MailSend ms = new MailSend(name,mail,msg);
+		 System.out.println("COMPLET SEND");
+		 }
+		 else{
+			 System.out.println("Mail service is not working");
+		 }
 		 %>
-	 }</script>
+	 </script>
 	<title>Minee - Contact</title>
