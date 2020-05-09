@@ -20,10 +20,10 @@
 	
 		<a href="portfolio/portfolio-j">
 			<img class="portfolio_img" alt="Jenny's portfolio"
-				src="/resources/img/portfolioj/forest1.png">
+				src="/resources/img/portfolio/portfolioJ/forest1.png">
 		</a>
 	
-		<a href="portfolio/portfolio-s">
+		<a href="portfolio/portfolio-s">                                                                                                                     
 			<img class="portfolio_img" alt="Shin's portfolio"
 				src="/resources/img/portfolio/portfolioS/WILL-background.png">
 		</a>
