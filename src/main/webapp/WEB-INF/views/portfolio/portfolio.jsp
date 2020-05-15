@@ -6,17 +6,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MINEE - Portfolio</title>
-<link rel="stylesheet" type="text/css" href="/resources/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/common/reset.css" />
 <link rel="stylesheet" type="text/css" href="/resources/css/portfolio/portfolio.css" />
-<script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>
-<script charset="utf-8" type="text/javascript" src="/resources/js/portfolio/portfolio.js"></script>
 </head>
 <body>
 	
-	<%@ include file="/WEB-INF/views/header/header.jsp"%>
+	<%@ include file="/WEB-INF/views/header/headerBox.jsp"%>
 	
 	<div class="portfolio_container">
 		

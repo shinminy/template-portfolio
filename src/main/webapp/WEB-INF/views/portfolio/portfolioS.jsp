@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MINEE - Portfolio - S</title>
-<link rel="stylesheet" type="text/css" href="/resources/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/common/reset.css" />
 <link rel="stylesheet" type="text/css" href="/resources/css/portfolio/portfolioS.css" />
 <script
   src="https://code.jquery.com/jquery-3.4.1.js"
@@ -16,7 +16,7 @@
 </head>
 <body>
 	
-	<%@ include file="/WEB-INF/views/header/header.jsp"%>
+	<%@ include file="/WEB-INF/views/header/headerBox.jsp"%>
 	
 	<div class="templateS_container">
 	
