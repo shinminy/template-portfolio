@@ -35,7 +35,7 @@
 			</div>
 			<a href="portfolio/portfolio-j">
 				<img class="portfolio_img" alt="Jenny's portfolio"
-					src="/resources/img/portfolio/portfolioJ/forest1.png">
+					src="/resources/img/portfolio/portfolioJ/forest5.png">
 			</a>
 		</div>
 		
