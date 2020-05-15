@@ -36,7 +36,7 @@
 	margin: 20px auto;	
 }
 .contact_info_title{
-	color: #838CF5;
+	color: orange;
 }
 .fb_btn{
 	background: url( "../../resources/img/contact/fbBtn.svg" ) no-repeat;
@@ -58,29 +58,30 @@
 
 .mail_form input[type='text'] {
 	font-size: 16px;
-	box-sizing: border-box;
-	width: 100%;
+	width: 95%;
 	padding-inline-start: 10px;
-	padding-inline-end: 40px;
-	border: 1px solid black;
+	padding-inline-end: 10px;
+	background-color: white;
+	border: 0px;
+	border-bottom: 2px solid orange;
 }
 
 .mail_form .msg {
 	font-size: 16px;
-	box-sizing: border-box;
-	width: 100%;
-	height: 100px;
+	width: 95%;
 	padding-inline-start: 10px;
 	padding-inline-end: 10px;
-	border: 4px;
+	border: 0px;
+	border-bottom: 2px solid orange;
 }
 
 .mail_form input[type='submit'] {
 	font-size: 16px;
 	float:right;
 	margin: 10px;
-	background-color: #838CF5;
+	background-color: orange;
 	color: white;
+	border : 0px;
 }
 
 /* Responsible */

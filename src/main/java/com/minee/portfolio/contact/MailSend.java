@@ -16,8 +16,7 @@ import javax.mail.internet.MimeMessage;
 
 public class MailSend{
 	
-	PasswordAuthentication pa;
-	
+
 	public MailSend(String senderName, String senderMail, String senderMsg){
 		Properties prop = System.getProperties();
         prop.put("mail.smtp.starttls.enable", "true");

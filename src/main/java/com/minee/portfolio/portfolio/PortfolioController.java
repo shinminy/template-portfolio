@@ -29,12 +29,12 @@ public class PortfolioController {
 	
 	@RequestMapping(value = "portfolio/portfolio-a", method = RequestMethod.GET)
 	public String showPortfolioA() {
-		System.out.println("A!");
 		return "portfolio/portfolioA";
 	}
 	
 	@RequestMapping(value = "portfolio/portfolio-j", method = RequestMethod.GET)
 	public String Contact() {
+		System.out.println("access to j");
 		return "portfolio/portfolioJ";
 	}
 	
