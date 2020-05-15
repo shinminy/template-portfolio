@@ -7,8 +7,6 @@
 <title>MINEE - Portfolio - A</title>
 <link rel="stylesheet" type="text/css" href="/resources/css/reset.css" />
 <link rel="stylesheet" type="text/css" href="/resources/css/portfolio/portfolioA.css" />
-
-<link rel="stylesheet" type="text/css" href="/resources/css/portfolio/portfolio.css" />
 </head>
 <body>
 	<div class="templateA_container">
