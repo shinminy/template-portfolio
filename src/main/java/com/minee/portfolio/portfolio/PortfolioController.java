@@ -14,36 +14,39 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.minee.portfolio.common.ClientUtils;
 
 @Controller
+@RequestMapping("portfolio")
 public class PortfolioController {
 	
 	private final Logger logger = LoggerFactory.getLogger(PortfolioController.class);
 	private final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 	
-	@RequestMapping(value = "portfolio", method = RequestMethod.GET)
+	private final String jspFile = "portfolio/portfolio";
+	
+	@RequestMapping(value = "", method = RequestMethod.GET)
 	public String portfolio(HttpServletRequest request) {
 		String currentTime = sdf.format(Calendar.getInstance().getTime());
 		logger.info("[{}] {} accesses to Portfolio page.", currentTime, ClientUtils.getRemoteIP(request));
 		
-		return "portfolio/portfolio";
+		return jspFile;
 	}
 	
-	@RequestMapping(value = "portfolio/portfolio-a", method = RequestMethod.GET)
+	@RequestMapping(value = "/portfolio-a", method = RequestMethod.GET)
 	public String showPortfolioA() {
-		return "portfolio/portfolioA";
+		return (jspFile + "A");
 	}
 	
-	@RequestMapping(value = "portfolio/portfolio-j", method = RequestMethod.GET)
+	@RequestMapping(value = "/portfolio-j", method = RequestMethod.GET)
 	public String Contact() {
 		System.out.println("access to j");
-		return "portfolio/portfolioJ";
+		return (jspFile + "J");
 	}
 	
-	@RequestMapping(value = "portfolio/portfolio-s", method = RequestMethod.GET)
+	@RequestMapping(value = "/portfolio-s", method = RequestMethod.GET)
 	public String portfolioS(HttpServletRequest request) {
 		String currentTime = sdf.format(Calendar.getInstance().getTime());
 		logger.info("[{}] {} accesses to Portfolio S page.", currentTime, ClientUtils.getRemoteIP(request));
 		
-		return "portfolio/portfolioS";
+		return (jspFile + "S");
 	}
 
 }
