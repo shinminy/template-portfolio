@@ -1,13 +1,7 @@
 @charset "UTF-8";
 
-.header_container {
-	background-color: white;
-}
-
 .templateA_container{
     width: 100%;
-    position: absolute;
-    top: 90px;
 }
 .templateA_top_area {
 	width: 100%;

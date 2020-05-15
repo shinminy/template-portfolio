@@ -6,17 +6,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MINEE - About</title>
-<link rel="stylesheet" type="text/css" href="/resources/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/common/reset.css" />
 <link rel="stylesheet" type="text/css" href="/resources/css/about/about.css" />
 </head>
 <body>
+	
+	<%@ include file="/WEB-INF/views/header/headerBox.jsp"%>
 
 	<div class="about_container">
 
 		<div class="pic_on_left">
 
 			<img class="member_img" alt="Profile picture"
-				src="http://placehold.it/400x500">
+				src="/resources/img/about/Amy.jpg">
 
 			<div class="member_desc">
 				<h1>Amy</h1>
@@ -29,7 +31,7 @@
 		<div class="pic_on_right">
 
 			<img class="member_img" alt="Profile picture"
-				src="http://placehold.it/400x500">
+				src="/resources/img/about/Jenny.jpg">
 
 			<div class="member_desc">
 				<h1>Jenny</h1>
@@ -42,7 +44,7 @@
 		<div class="pic_on_left">
 
 			<img class="member_img" alt="Profile picture"
-				src="http://placehold.it/400x500">
+				src="/resources/img/about/Shin.jpg">
 
 			<div class="member_desc">
 				<h1>Shin</h1>
@@ -52,23 +54,14 @@
 
 		</div>
 
-		<div class="pic_on_right">
-
-			<img class="member_img" alt="Profile picture"
-				src="http://placehold.it/400x500">
-
-			<div class="member_desc">
-				<h1>대파</h1>
-				<p>멋진 대파</p>
-			</div>
-
-		</div>
-
 		<div class="join_container">
 
 			<div class="join_text">Join Us</div>
 
-			<a class="join_button" href="contact">→</a>
+			<a href="contact">
+				<img class="join_button" alt="Button"
+					src="/resources/img/about/move_btn.png">
+			</a>
 
 		</div>
 

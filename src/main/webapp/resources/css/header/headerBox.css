@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.header_container {
+	background-color: white;
+}
+
+.header_box {
+	display: block;
+	height: 90px;
+}
