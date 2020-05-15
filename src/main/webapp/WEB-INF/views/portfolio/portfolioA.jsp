@@ -7,8 +7,11 @@
 <title>MINEE - Portfolio - A</title>
 <link rel="stylesheet" type="text/css" href="/resources/css/common/reset.css" />
 <link rel="stylesheet" type="text/css" href="/resources/css/portfolio/portfolioA.css" />
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="/resources/js/portfolio/portfolioA.js"></script>
 </head>
 <body>
+	<%@ include file="/WEB-INF/views/header/header.jsp"%>
 	<div class="templateA_container">
 		<div class="templateA_top_area">
 			<div class="templateA_title_area">

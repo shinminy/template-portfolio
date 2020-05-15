@@ -12,6 +12,7 @@
 <script src="/resources/js/main/main.js"></script>
 </head>
 <body>
+	<%@ include file="/WEB-INF/views/header/header.jsp"%>
 	<div class="main_container">
 		<div class="section">
 			<p><span class="title">Minee</span><br><span class="desc">다양한 사람과 정보 및 기술을 교환 합니다.</span></p>
