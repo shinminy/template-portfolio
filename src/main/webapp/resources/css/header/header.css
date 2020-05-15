@@ -41,6 +41,7 @@
 }
 
 .header_container li a {
+	display: block;
 	text-decoration: none;
 }
 
@@ -86,6 +87,10 @@
 }
 
 .header_container nav li.portfolio_menu a:hover+.portfolio_sub_menu {
+	visibility: visible;
+}
+
+.header_container nav li.portfolio_menu .portfolio_sub_menu:hover {
 	visibility: visible;
 }
 
