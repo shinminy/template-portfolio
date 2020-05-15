@@ -15,7 +15,9 @@
 <script charset="utf-8" type="text/javascript" src="/resources/js/portfolio/portfolioS.js"></script>
 </head>
 <body>
-
+	
+	<%@ include file="/WEB-INF/views/header/header.jsp"%>
+	
 	<div class="templateS_container">
 	
 		<div class="templateS_bg_container">

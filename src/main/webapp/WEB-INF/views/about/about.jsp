@@ -10,6 +10,8 @@
 <link rel="stylesheet" type="text/css" href="/resources/css/about/about.css" />
 </head>
 <body>
+	
+	<%@ include file="/WEB-INF/views/header/header.jsp"%>
 
 	<div class="about_container">
 
