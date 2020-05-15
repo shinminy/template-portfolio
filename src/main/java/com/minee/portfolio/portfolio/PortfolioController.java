@@ -29,7 +29,6 @@ public class PortfolioController {
 	
 	@RequestMapping(value = "portfolio/portfolio-a", method = RequestMethod.GET)
 	public String showPortfolioA() {
-		System.out.println("A!");
 		return "portfolio/portfolioA";
 	}
 	
