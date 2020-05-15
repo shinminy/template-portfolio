@@ -17,7 +17,7 @@
 				<button class="is_btn" onclick="location.href=window.open('http://www.instagram.com/minee_ceres/')"></button>
 			</div>
 			<div class=contact_msg>
-			<form class="mail_form" name="mailForm" method="post" accept-charset="UTF-8">
+			<form class="mail_form" name="mailForm" method="post" accept-charset="utf-8">
 			
 				<h3 class=contact_info_title>이름</h3>
 				<input type="text" name="user_name" placeholder="이름"/>
