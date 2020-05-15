@@ -19,6 +19,7 @@ p {
 .member_img {
 	width: 400px;
 	height: 500px;
+	object-fit: cover;
 }
 
 .member_desc {
@@ -46,27 +47,24 @@ p {
 
 .join_container {
 	display: flex;
-	width: 200px;
+	justify-content: center;
 	margin: 100px auto;
+	text-align: center;
+	font-size: 44px;
+	line-height: 60px;
+}
+
+.join_container a {
+	text-decoration: none;
 }
 
 .join_text {
 	margin-right: 16px;
 	font-weight: bold;
-	font-size: 36px;
 }
 
 .join_button {
-	background-color: orange;
-	line-height: 48px;
-	width: 48px;
-	height: 48px;
-	border-radius: 50%;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	font-weight: bolder;
-	font-size: 20px;
+	height: 60px;
 }
 
 @media ( max-width : 800px) {
@@ -93,6 +91,7 @@ p {
 	.member_img {
 		width: 100%;
 		height: auto;
+		object-fit: cover;
 	}
 	
 	.member_desc {
