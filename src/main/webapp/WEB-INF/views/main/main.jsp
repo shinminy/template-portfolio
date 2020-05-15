@@ -46,7 +46,7 @@ $(function() {
 			<p>
 				<span class="fade_in_up_with_scrolling1 desc">마이니(Minee) 는</span><br>
 				<span class="fade_in_up_with_scrolling2 desc">채굴되는 사람 혹은 장소라는 의미로,</span><br>
-				<span class="fade_in_up_with_scrolling3 desc">다양한 사람과 정보 및 기술 교류를 지향합니다</span>
+				<span class="fade_in_up_with_scrolling3 desc">다양한 사람과 정보 및 기술 교류를 지향합니다.</span>
 			</p>
 		</div>
 		

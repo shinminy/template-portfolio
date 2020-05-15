@@ -1,18 +1,19 @@
 @charset "UTF-8";
 
-body{
+body {
 	background-image: url("../img/main/main_bg.gif");
 	background-size: 100%;
 	color: white;
 }
 
-.main_container .section{
+.main_container .section {
 	height: 100vh;
 	position: relative;
 	text-align: center;
 }
 
-.main_container .section > *{
+.main_container .section>* {
+	width: 100%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -20,41 +21,36 @@ body{
 	text-align: center;
 }
 
-.section:nth-child(2) p{
-	font-weight: 100;
+.section:nth-child(2) p {
 	line-height: 300%;
+	font-weight: 100;
 }
 
-.section:nth-child(2) span[class ^= "fade_in_up_with_scrolling"] {
+.section:nth-child(2) span[class^="fade_in_up_with_scrolling"] {
 	position: relative;
 	top: 80px;
 	opacity: 0;
 }
 
 @media ( min-width : 800px) {
-	
-	.section:nth-child(1) .title{
+	.section:nth-child(1) .title {
 		font-size: 100px;
+		line-height: 1.5;
 	}
-	
-	.section .desc{
+	.section .desc {
 		font-size: 30px;
 		line-height: 300%;
 		font-weight: lighter;
-	}	
-
+	}
 }
 
 @media ( max-width : 800px) {
-
-	.section .title{
+	.section .title {
 		font-size: 70px;
 	}
-	
-	.section .desc{
+	.section .desc {
 		font-size: 20px;
 		line-height: 100%;
 		font-weight: lighter;
 	}
-	
 }
