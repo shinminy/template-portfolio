@@ -50,6 +50,9 @@ templetJ_subtitle{
 	background-color: black;
 	padding-top : 5%;
 	padding-bottom: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
 }
 
 .templetJ_vid iframe{
@@ -57,14 +60,6 @@ templetJ_subtitle{
 	height: 720px;
 	border: 0px;
 	border-radius:15px;
-	margin-left: 15%;
-}
-
-.templetJ_imgbox{
-	width: 100%;
-	background-color: #f2f2f2;
-	padding-top : 5%;
-	padding-bottom: 5%;
 }
 
 .templetJ_img .templetJ_capture{
