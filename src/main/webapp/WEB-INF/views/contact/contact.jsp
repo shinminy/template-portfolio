@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ include file = "/WEB-INF/views/contact/contactMap.jsp"%>
+<% request.setCharacterEncoding("UTF-8"); %>
 </head>
 <body onload="initialize()">
 	<div class=contact_container>
@@ -16,7 +17,7 @@
 				<button class="is_btn" onclick="location.href=window.open('http://www.instagram.com/minee_ceres/')"></button>
 			</div>
 			<div class=contact_msg>
-			<form class="mail_form" name="mailForm" method="post">
+			<form class="mail_form" name="mailForm" method="post" accept-charset="UTF-8">
 			
 				<h3 class=contact_info_title>이름</h3>
 				<input type="text" name="user_name" placeholder="이름"/>
