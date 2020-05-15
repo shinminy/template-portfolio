@@ -6,6 +6,11 @@
 	overflow: hidden;
 }
 
+.templetJ_name{
+	color : 825c8b;
+	font-weight: bold;
+}
+
 .templetJ_vid{
 	width: 100%;
 	position: relative;
@@ -35,8 +40,6 @@
 .templetJ_one .templetJ_img{
 	float: right;
 	box-sizing: border-box;
-	width: 30%;
-	height: 30%;
 	margin: 20px auto;
 }
 
