@@ -8,6 +8,8 @@
 	<title>Minee - Portfolio - J</title>
 </head>
 <body>
+<%@ include file="/WEB-INF/views/header/headerBox.jsp"%>
+
 	<div class="templetJ_container">
 		
 		<div class=templetJ_overview>
@@ -52,7 +54,7 @@
 			</p>
 		</div>
 		
-		<div class=templetJ_imgbox>
+		<div class=templetJ_container>
 			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest1.png" alt="포레스트 메인">
 			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest2.png" alt="포레스트 스토리">
 			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest3.png" alt="포레스트 향기선택">
