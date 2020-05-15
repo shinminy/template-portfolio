@@ -34,6 +34,7 @@ public class PortfolioController {
 	
 	@RequestMapping(value = "portfolio/portfolio-j", method = RequestMethod.GET)
 	public String Contact() {
+		System.out.println("access to j");
 		return "portfolio/portfolioJ";
 	}
 	
