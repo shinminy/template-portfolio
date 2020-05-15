@@ -53,8 +53,15 @@
 		</div>
 		
 		<div class=templetJ_imgbox>
-			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest2.png" alt="포트폴리오 캡쳐1">
-			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest3.png" alt="포트폴리오 캡쳐2">
+			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest1.png" alt="포레스트 메인">
+			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest2.png" alt="포레스트 스토리">
+			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest3.png" alt="포레스트 향기선택">
+			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest4.png" alt="포레스트 구슬선택">
+			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest5.png" alt="포레스트 받기게임">
+			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest6.png" alt="포레스트 슬로건영상">
+			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest7.png" alt="포레스트 사진찍기">
+			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest8.png" alt="포트스트 프로모션">
+			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest9.png" alt="포레스트 엔딩">
 		</div>
 		
 	</div>
