@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>MINEE - Portfolio - A</title>
-<link rel="stylesheet" type="text/css" href="/resources/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/common/reset.css" />
 <link rel="stylesheet" type="text/css" href="/resources/css/portfolio/portfolioA.css" />
 </head>
 <body>
