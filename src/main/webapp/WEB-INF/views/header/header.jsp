@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <link rel="stylesheet" type="text/css" href="/resources/css/header/header.css" />
+<script src="/resources/js/header/header.js"></script>
 <div class="header_container">
 	<div class="header_content_container">
 		<h1 class="logo">
@@ -17,15 +18,6 @@
 					<li></li>
 				</ul>
 			</div>
-			<script type="text/javascript">
-				$(function(){
-					$(".m-gnb .gnbBtn a").click(function(){
-						$(this).next("ul").toggleClass("active");
-						$(".m-gnb .gnbUl").toggleClass("active");
-						return false;
-					});
-				});
-			</script>
 			<ul class="gnbUl">
 				<li><a lang="en" href="${contextPath}/about"> About </a></li>
 				<li><a lang="en" href="${contextPath}/portfolio"> Portfolio</a></li>
@@ -35,7 +27,15 @@
 		<nav class="gnb">
 			<ul>
 				<li><a lang="en" href="${contextPath}/about"> About </a></li>
-				<li><a lang="en" href="${contextPath}/portfolio"> Portfolio</a></li>
+				<li class="portfolio_menu">
+					<a lang="en" href="${contextPath}/portfolio"> Portfolio </a>
+					<ul class="portfolio_sub_menu">
+						<li><a lang="en" href="${contextPath}/portfolio/portfolio-a"> Portfolio-A </a></li>
+						<li><a lang="en" href="${contextPath}/portfolio/portfolio-s"> Portfolio-S </a></li>
+						<li><a lang="en" href="${contextPath}/portfolio/portfolio-j"> Portfolio-J </a></li>
+					</ul>
+					
+				</li>
 				<li><a lang="en" href="${contextPath}/contact"> Contact </a></li>
 			</ul>
 		</nav>
