@@ -67,7 +67,7 @@ templetJ_subtitle{
 
 .templetJ_architecture{
 	background-color: #f2f2f2;
-	margin-top: -1.1%;
+	margin-top: -1.4%;
 }
 .templetJ_archBox{
 	text-align: center;
@@ -99,6 +99,7 @@ templetJ_subtitle{
 	border-radius: 25px;
 	overflow: hidden;
 	margin-top:5%;
+	margin-left:20%;
 }
 
 .templateJ_slide_imgs {
@@ -110,7 +111,7 @@ templetJ_subtitle{
 	width: 940px;
 }
 
-@media ( min-width : 1070px) and (max-width:1260px) {
+@media ( min-width : 1220px) and (max-width:1260px) {
 	.templetJ_name{
 	margin-left: 10%;
 	}
@@ -129,6 +130,12 @@ templetJ_subtitle{
 }
 }
 
+@media ( min-width : 1080px) and (max-width:1260px){
+	.templetJ_captureContainer{
+	margin-left: 10%;
+	}
+}
+
 @media ( min-width : 940px) and (max-width:1069px) {
 
 	.templetJ_name{
@@ -145,6 +152,13 @@ templetJ_subtitle{
 	width: 80%;
 	height: 400px;
 }
+	.templetJ_captureContainer{
+	margin-left: 18%;
+	width: 700px;
+	}
+	.templetJ_capture {
+	width: 700px;
+	}
 }
 
 
@@ -172,11 +186,11 @@ templetJ_subtitle{
 	}
 	
 	.templetJ_captureContainer{
-	width: 480px;
-	margin-top:5%;
+	margin-left: 18%;
+	width: 700px;
 	}
 	.templetJ_capture {
-	width: 480px;
+	width: 700px;
 	}
 }
 
@@ -203,10 +217,10 @@ templetJ_subtitle{
 	}
 	
 	.templetJ_captureContainer{
-	width: 480px;
-	margin-top:5%;
+	width: 400px;
+	margin-left: 8%;
 	}
 	.templetJ_capture {
-	width: 480px;
+	width: 400px;
 	}
 }
