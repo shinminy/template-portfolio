@@ -24,7 +24,14 @@
 				<span class="fade_in_up_with_scrolling2 desc">채굴되는 사람 혹은 장소라는 의미로,</span><br>
 				<span class="fade_in_up_with_scrolling3 desc">다양한 사람과 정보 및 기술 교류를 지향합니다.</span>
 			</p>
+			<div class="icon_author">
+			Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a>
+			, <a href="https://www.flaticon.com/authors/smalllikeart" title="smalllikeart">smalllikeart</a> 
+			, <a href="https://www.flaticon.com/authors/pixel-buddha" title="Pixel Buddha">Pixel Buddha</a>
+			, <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><br>
+			</div>
 		</div>
+		
 		
 	</div>
 </body>
