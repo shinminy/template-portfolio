@@ -31,23 +31,26 @@ public class ContactController {
 	}
 	
 	@RequestMapping(value = "/sendMail.do", method = RequestMethod.POST)
-	@ResponseBody
-	public String sendMail(HttpServletRequest request, 
-						@RequestParam(value="name") String name, 
-						@RequestParam(value="mail") String mail, 
-						@RequestParam(value="msg") String msg) {
+	public @ResponseBody String sendMail(HttpServletRequest request, 
+						@RequestParam(value="user_name") String name, 
+						@RequestParam(value="user_mail") String mail, 
+						@RequestParam(value="user_msg") String msg) {
 		String result = "success";
 		
 		String currentTime = sdf.format(Calendar.getInstance().getTime());
 		logger.info("[{}] {} send a mail.", currentTime, ClientUtils.getRemoteIP(request));
-		/*
+
+		
 		if (name != null && mail != null && msg != null && !(name.equals("")) && !(mail.equals("")) && !(msg.equals(""))) {
 			MailSend ms = new MailSend(name, mail, msg);
 			logger.info("> Complete to send");
 		} else {
 			logger.info("> FAIL");
+			logger.info(">> name: {}", name);
+			logger.info(">> mail: {}", mail);
+			logger.info(">> msg: {}", msg);
 			result = "fail";
-		}*/
+		}
 		
 		return result;
 	}
