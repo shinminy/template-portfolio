@@ -5,6 +5,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="/resources/css/portfolio/portfolioJ.css" />
+	<script charset="utf-8" type="text/javascript" src="/resources/js/portfolio/portfolioJ.js"></script>
 	<title>Minee - Portfolio - J</title>
 </head>
 <body>

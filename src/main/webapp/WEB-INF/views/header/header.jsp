@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <link rel="stylesheet" type="text/css" href="/resources/css/header/header.css" />
-<script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 <script src="/resources/js/header/header.js"></script>
 <div class="header_container">
 	<div class="header_content_container">
@@ -25,8 +24,8 @@
 					<a lang="en" href="${contextPath}/portfolio"> Portfolio <i class="fas fa-chevron-down"></i></a>
 					<ul class="portfolio_sub_menu">
 						<li><a lang="en" href="${contextPath}/portfolio/portfolio-a"> Portfolio-A </a></li>
-						<li><a lang="en" href="${contextPath}/portfolio/portfolio-s"> Portfolio-S </a></li>
 						<li><a lang="en" href="${contextPath}/portfolio/portfolio-j"> Portfolio-J </a></li>
+						<li><a lang="en" href="${contextPath}/portfolio/portfolio-s"> Portfolio-S </a></li>
 					</ul>
 				</li>
 				<li><a lang="en" href="${contextPath}/contact"> Contact </a></li>
@@ -39,8 +38,8 @@
 					<a lang="en" href="${contextPath}/portfolio"> Portfolio <i class="fas fa-chevron-down"></i> </a>
 					<ul class="portfolio_sub_menu">
 						<li><a lang="en" href="${contextPath}/portfolio/portfolio-a"> Portfolio-A </a></li>
-						<li><a lang="en" href="${contextPath}/portfolio/portfolio-s"> Portfolio-S </a></li>
 						<li><a lang="en" href="${contextPath}/portfolio/portfolio-j"> Portfolio-J </a></li>
+						<li><a lang="en" href="${contextPath}/portfolio/portfolio-s"> Portfolio-S </a></li>
 					</ul>
 					
 				</li>

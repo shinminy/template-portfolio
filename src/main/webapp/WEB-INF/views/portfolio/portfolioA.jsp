@@ -11,6 +11,7 @@
 <body>
 	<%@ include file="/WEB-INF/views/header/headerBox.jsp"%>
 	<div class="templateA_container">
+		<input type="hidden" value="portfolio_a" id="currentPage">
 		<div class="templateA_top_area">
 			<div class="templateA_title_area">
 				<p class="templateA_top_subtitle">톡톡 쏘는 협업 도구</p>
