@@ -3,9 +3,17 @@ var start_point;
 
 $(document).ready(function() {
 	var container = $('.body_container').children().first();
-	var first_content = container.children().eq(1);
+	var frontOfClassName = container.attr('class').substring(0, 8);
 	
-	if("template" == container.attr('class').substring(0, 8)) {
+	var first_content;
+	if("templetJ" == frontOfClassName) {
+		first_content = container.children().first();
+	}
+	else {
+		first_content = container.children().eq(1);
+	}
+	
+	if("template" == frontOfClassName) {
 		start_point = first_content.offset().top + first_content.outerHeight(true);
 	}
 	else {
