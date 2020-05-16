@@ -1,7 +1,4 @@
 $(function() {
-
-	
-
 	
 	$(".m-gnb .gnbBtn a").click(function() {
 		$(this).next("ul").toggleClass("active");

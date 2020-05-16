@@ -10,6 +10,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="/resources/css/contact.css" />
+	<link rel="stylesheet" type="text/css" href="/resources/css/common/reset.css" />
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCt1dBoMQ4TbIL__e24JVMgpDPcjOXop0U"></script>
 	 <script>
 	  function initialize() {
