@@ -4,6 +4,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="/resources/css/common/reset.css" />
 	<link rel="stylesheet" type="text/css" href="/resources/css/portfolio/portfolioJ.css" />
 	<script charset="utf-8" type="text/javascript" src="/resources/js/portfolio/portfolioJ.js"></script>
 	<title>Minee - Portfolio - J</title>
@@ -21,7 +22,7 @@
 					<p class= templetJ_subdesc>온라인 향수시장의 <br>
 											   성장을 위한<br>
 												미디어 인터랙션 프로모션</p>
-					<h1 class= templetJ_subtitle>Forest</h1>
+					<h2 class= templetJ_subtitle>Forest</h2>
 				</div>
 				
 				<p class=templetJ_desc>포레스트는 향수시장이 화장품 전체 시장에 비해 성장이 더딘 점<br>
@@ -40,8 +41,9 @@
 		<div class=templetJ_overview>
 			<p class= templetJ_name>Related activity</p>
 			<div class = templetJ_title>
-				<p class= templetJ_subdesc>프로젝트 관련 논문 및 저작권 등록</p>
-				<h1 class= templetJ_subtitle>관련활동</h1>
+				<p class= templetJ_subdesc>프로젝트 관련 논문<br>
+										   저작권 등록</p>
+				<h2 class= templetJ_subtitle>관련활동</h2>
 			</div>
 			
 			<p class=templetJ_desc>한국 저작권 위원회 컴퓨터 프로그램 저작물>응용프로그램으로 등록<br>
