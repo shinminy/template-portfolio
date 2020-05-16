@@ -6,6 +6,11 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="/resources/css/common/reset.css" />
 	<link rel="stylesheet" type="text/css" href="/resources/css/portfolio/portfolioJ.css" />
+	
+	<script
+  	src="https://code.jquery.com/jquery-3.4.1.js"
+  	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  	crossorigin="anonymous"></script>
 	<script charset="utf-8" type="text/javascript" src="/resources/js/portfolio/portfolioJ.js"></script>
 	<title>Minee - Portfolio - J</title>
 </head>
@@ -33,6 +38,14 @@
 			<img class= "templetJ_img" src="/resources/img/portfolio/portfolioJ/forest0.png" alt="포트폴리오 썸네일">
 		</div>
 		
+		<div class=templetJ_architecture>
+			<p class= templetJ_name>Architecture</p>
+			<div class = templetJ_archBox>
+				<img class= "templetJ_archImg" src="/resources/img/portfolio/portfolioJ/forestach.png" alt="프로젝트 아키텍처">
+			</div>
+		
+		</div>
+		
 		<div class=templetJ_vid>
 			
 			<iframe src="https://www.youtube.com/embed/78OYtsr1G5o" ></iframe>
@@ -57,18 +70,19 @@
 			</p>
 		</div>
 		
-		<div class=templetJ_container>
-			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest1.png" alt="포레스트 메인">
-			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest2.png" alt="포레스트 스토리">
-			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest3.png" alt="포레스트 향기선택">
-			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest4.png" alt="포레스트 구슬선택">
-			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest5.png" alt="포레스트 받기게임">
-			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest6.png" alt="포레스트 슬로건영상">
-			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest7.png" alt="포레스트 사진찍기">
-			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest8.png" alt="포트스트 프로모션">
-			<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest9.png" alt="포레스트 엔딩">
+		<div class=templetJ_captureContainer>
+			<div class="templateJ_slide_imgs">
+				<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest1.png" alt="포레스트 메인">
+				<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest2.png" alt="포레스트 스토리">
+				<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest3.png" alt="포레스트 향기선택">
+				<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest4.png" alt="포레스트 구슬선택">
+				<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest5.png" alt="포레스트 받기게임">
+				<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest6.png" alt="포레스트 슬로건영상">
+				<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest7.png" alt="포레스트 사진찍기">
+				<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest8.png" alt="포트스트 프로모션">
+				<img class= "templetJ_capture" src="/resources/img/portfolio/portfolioJ/forest9.png" alt="포레스트 엔딩">
+			</div>
 		</div>
-		
 	</div>
 </body>
 </html>
