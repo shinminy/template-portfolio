@@ -13,15 +13,15 @@
 	box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
 }
 
-.header_container{
-	width: 100%;
-	height: 90px;
+.header_container a {
+	display: block;
+	text-decoration: none;
 }
 
 .header_content_container {
 	width: 100%;
 	height: 52px;
-	padding: 19px 2%;	
+	padding: 19px 2%;
 }
 
 .logo {
@@ -40,9 +40,8 @@
 	width: 100%;
 }
 
-.header_container li a {
-	display: block;
-	text-decoration: none;
+.header_container .fa-chevron-down {
+	font-size: small;
 }
 
 .header_container nav {
@@ -56,13 +55,15 @@
 .header_container nav ul {
 	width: 600px;
 	position: absolute;
-	top: 17px; 
+	top: 17px;
 }
 
 .header_container nav li {
 	display: inline-block;
 	width: 32%;
 	text-align: center;
+	height: 39px;
+	line-height: 39px;
 }
 
 .header_container nav li a {
@@ -76,36 +77,20 @@
 	color: #FFA601;
 }
 
-.header_container nav li.portfolio_menu a:hover {
-	background-color: red;
-	height: 200px;
-}
-
-.header_container nav li.portfolio_menu a:hover {
-	background-color: red;
-	height: 200px;
-}
-
-.header_container nav li.portfolio_menu a:hover+.portfolio_sub_menu {
-	visibility: visible;
-}
-
-.header_container nav li.portfolio_menu .portfolio_sub_menu:hover {
-	visibility: visible;
+.header_container nav li.portfolio_menu.mouse_on>a {
+	color: #FFA601;
 }
 
 .header_container nav .portfolio_sub_menu {
-	visibility: hidden; width : 192px;
-	height: 120px;
-	top: 30px;
-	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
 	width: 192px;
+	height: 119px;
+	top: 39px;
+	background-color: rgba(0, 0, 0, 0.9);
 }
 
 .header_container nav .portfolio_sub_menu li {
 	width: 100%;
-	height: 40px;
-	line-height: 40px;
 }
 
 .header_container nav .portfolio_sub_menu li a {
@@ -135,7 +120,6 @@
 }
 
 .m-gnb .gnbBtn a {
-	display: block;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -212,10 +196,8 @@
 	margin: 6px 0;
 }
 
-.m-gnb .gnbUl li a {
-	padding: 10px;
-	display: block;
-	text-align: center;
+.m-gnb .gnbUl>li a {
+	padding: 10px 30px;
 	font-size: 20px;
 	color: #4D4B4B;
 }
@@ -223,6 +205,15 @@
 .m-gnb .gnbUl li a:hover {
 	background-color: rgba(255, 166, 1, 0.5);
 	color: #fff;
+}
+
+.m-gnb .gnbUl .portfolio_sub_menu {
+	display: none;
+}
+
+.m-gnb .gnbUl .portfolio_sub_menu li a {
+	padding: 10px 60px;
+	font-size: 15px;
 }
 
 /* responsible */
