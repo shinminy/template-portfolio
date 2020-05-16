@@ -12,7 +12,7 @@ body {
 	text-align: center;
 }
 
-.main_container .section>* {
+.main_container .section p {
 	width: 100%;
 	position: absolute;
 	top: 50%;
@@ -21,15 +21,30 @@ body {
 	text-align: center;
 }
 
-.section:nth-child(2) p {
+.section+.section p {
 	line-height: 300%;
 	font-weight: 100;
 }
 
-.section:nth-child(2) span[class^="fade_in_up_with_scrolling"] {
+.section+.section span[class^="fade_in_up_with_scrolling"] {
 	position: relative;
 	top: 80px;
 	opacity: 0;
+}
+
+.icon_author {
+	color: #fff;
+	position: absolute;
+	right: 19px;
+	bottom: 12px;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.icon_author a {
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
 }
 
 @media ( min-width : 800px) {
