@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
-.templateA_container{
-    width: 100%;
+.templateA_container {
+	width: 100%;
 }
+
 .templateA_top_area {
 	width: 100%;
 	height: 350px;
@@ -49,10 +50,11 @@
 
 /* Responsible */
 @media ( min-width : 800px) {
-	.templateA_container>div:nth-child(3) .templateA_section_content {
+	.templateA_container>div:nth-child(4) .templateA_section_content {
 		position: relative;
+		border: 1px soid red;
 	}
-	.templateA_container>div:nth-child(3) .templateA_img {
+	.templateA_container>div:nth-child(4) .templateA_img {
 		position: absolute;
 		right: 0;
 	}
