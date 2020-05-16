@@ -65,6 +65,17 @@ templetJ_subtitle{
 	margin-right: 10%;
 }
 
+.templetJ_architecture{
+	background-color: #f2f2f2;
+	margin-top: -1.1%;
+}
+.templetJ_archBox{
+	text-align: center;
+}
+.templetJ_archImg{
+	width: 80%;
+}
+
 .templetJ_vid{
 	width: 100%;
 	background-color: black;
@@ -80,16 +91,24 @@ templetJ_subtitle{
 	border-radius:15px;
 }
 
-.templetJ_img .templetJ_capture{
-	width: 80%;
-	margin: 10px auto;
-	vertical-align:middle;
+.templetJ_captureContainer{
+	position: absolute;
+	width: 940px;
+	height: auto;
+	border: 5px solid black;
+	border-radius: 25px;
+	overflow: hidden;
+	margin-top:5%;
 }
 
-.templetJ_capture{
-	display:none;
+.templateJ_slide_imgs {
+	white-space: nowrap;
 }
 
+.templetJ_capture {
+	float: left;
+	width: 940px;
+}
 
 @media ( min-width : 1070px) and (max-width:1260px) {
 	.templetJ_name{
@@ -151,6 +170,14 @@ templetJ_subtitle{
 	width: 80%;
 	height: 400px;
 	}
+	
+	.templetJ_captureContainer{
+	width: 480px;
+	margin-top:5%;
+	}
+	.templetJ_capture {
+	width: 480px;
+	}
 }
 
 
@@ -173,5 +200,13 @@ templetJ_subtitle{
 	.templetJ_vid iframe{
 	width: 80%;
 	height: 400px;
+	}
+	
+	.templetJ_captureContainer{
+	width: 480px;
+	margin-top:5%;
+	}
+	.templetJ_capture {
+	width: 480px;
 	}
 }
