@@ -1,12 +1,5 @@
 $(document).ready(slide);
 
-$(window).on('load', function () {
-	slide();
-});
-  
-$(window).on('resize', function () {
-	slide();
-});
 /**
  * ==========
  * slide()
@@ -29,9 +22,9 @@ $(window).on('resize', function () {
  */
 function slide() {
 	// 이미지 하나의 가로 길이 (px)
-	var IMAGE_WIDTH =940
+	var IMAGE_WIDTH =940;
+	
 	//반응형 추가
-
 	// 이미지 전환에 걸리는 시간 (ms)
 	const WORKING_TIME = 200;
 	// 이미지 하나를 보여주는 시간 (ms)
@@ -44,6 +37,26 @@ function slide() {
 	// (첫 번째 이미지의 복사본을 붙이는 이유는 다시 앞으로 전환 시 자연스럽게 넘어가는 것처럼 보이게 하기 위해서)
 	// (이 길이가 짧으면 길이가 모자라서 모자란 만큼 이미지들이 아랫줄로 내려감)
 	$('.templateJ_slide_imgs').width(IMAGE_WIDTH * (NUM_OF_IMAGES + 1) + "px");
+	
+	$(window).resize(function (){
+		  // width값을 가져오기
+		  var width_size = window.outerWidth;
+		  
+		  // 창 너비별로 사진 너비 수정
+		  if (width_size > 1069) {
+		    IMAGE_WIDTH = 940;
+		    $('.templateJ_slide_imgs').width(IMAGE_WIDTH * (NUM_OF_IMAGES + 1) + "px");
+		  }
+		  else if(width_size <= 1069 && width_size >799){
+			    IMAGE_WIDTH = 700;
+			    $('.templateJ_slide_imgs').width(IMAGE_WIDTH * (NUM_OF_IMAGES + 1) + "px");
+		  }
+		  else if(width_size <= 799){
+			  IMAGE_WIDTH = 400;
+			  $('.templateJ_slide_imgs').width(IMAGE_WIDTH * (NUM_OF_IMAGES + 1) + "px");
+		  }
+		});
+	
 	// 긴 이미지를 가리키는 변수
 	var slideImages = document.querySelector('.templateJ_slide_imgs');
 	// 이미지 복사
