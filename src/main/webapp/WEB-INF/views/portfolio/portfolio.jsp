@@ -24,7 +24,7 @@
 				</div>
 				<a href="portfolio/portfolio-a">
 					<img class="portfolio_img" alt="Amy's portfolio"
-						src="/resources/img/portfolio/portfolio-a.jpg" >
+						src="/resources/img/portfolio/portfolio-a.png" >
 				</a>
 			</div>
 			
@@ -36,7 +36,7 @@
 				</div>
 				<a href="portfolio/portfolio-j">
 					<img class="portfolio_img" alt="Jenny's portfolio"
-						src="/resources/img/portfolio/portfolioJ/forest5.png">
+						src="/resources/img/portfolio/portfolio-j.png">
 				</a>
 			</div>
 			
@@ -48,7 +48,7 @@
 				</div>
 				<a href="portfolio/portfolio-s">
 					<img class="portfolio_img" alt="Shin's portfolio"
-						src="/resources/img/portfolio/portfolioS/WILL-background.png">
+						src="/resources/img/portfolio/portfolio-s.png">
 				</a>
 			</div>
 			
