@@ -50,8 +50,6 @@
 	display: flex;
 	justify-content: center;
 	margin: 100px auto;
-	text-align: center;
-	font-size: 44px;
 	line-height: 60px;
 }
 
@@ -62,6 +60,7 @@
 .join_text {
 	margin-right: 16px;
 	font-weight: bold;
+	font-size: 44px;
 }
 
 .join_button {
