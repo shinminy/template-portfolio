@@ -20,9 +20,8 @@
 		
 		<div class="back_to_home_container">
 			
-			<div class="back_to_home_text">Back to Home</div>
-			
 			<a href="/">
+				Back to Home&nbsp;
 				<img class="home_button" alt="Button"
 					src="/resources/img/about/move_btn.png">
 			</a>

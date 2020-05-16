@@ -47,18 +47,15 @@
 }
 
 .join_container {
-	display: flex;
-	justify-content: center;
 	margin: 100px auto;
-	line-height: 60px;
 }
 
 .join_container a {
 	text-decoration: none;
-}
-
-.join_text {
-	margin-right: 16px;
+	color: initial;
+	display: flex;
+	justify-content: center;
+	line-height: 60px;
 	font-weight: bold;
 	font-size: 44px;
 }

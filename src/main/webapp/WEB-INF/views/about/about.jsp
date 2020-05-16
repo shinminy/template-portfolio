@@ -13,56 +13,66 @@
 	
 	<%@ include file="/WEB-INF/views/header/headerBox.jsp"%>
 
-	<div class="about_container">
-		<input type="hidden" value="about" id="currentPage">
+	<div class="body_container">
 
-		<div class="pic_on_left">
+		<div class="about_container">
+			
+			<input type="hidden" value="about" id="currentPage">
 
-			<img class="member_img" alt="Profile picture"
-				src="/resources/img/about/Amy.jpg">
+			<div class="pic_on_left">
 
-			<div class="member_desc">
-				<h1>Amy</h1>
-				<p>멋진 Amy</p>
-				<p><a href="mailto:davinchi0928@gmail.com">davinchi0928@gmail.com</a></p>
+				<img class="member_img" alt="Profile picture"
+					src="/resources/img/about/Amy.jpg">
+
+				<div class="member_desc">
+					<h1>Amy</h1>
+					<p>멋진 Amy</p>
+					<p>
+						<a href="mailto:davinchi0928@gmail.com">davinchi0928@gmail.com</a>
+					</p>
+				</div>
+
 			</div>
 
-		</div>
+			<div class="pic_on_right">
 
-		<div class="pic_on_right">
+				<img class="member_img" alt="Profile picture"
+					src="/resources/img/about/Jenny.jpg">
 
-			<img class="member_img" alt="Profile picture"
-				src="/resources/img/about/Jenny.jpg">
+				<div class="member_desc">
+					<h1>Jenny</h1>
+					<p>멋진 Jenny</p>
+					<p>
+						<a href="mailto:je028770@gmail.com">je028770@gmail.com</a>
+					</p>
+				</div>
 
-			<div class="member_desc">
-				<h1>Jenny</h1>
-				<p>멋진 Jenny</p>
-				<p><a href="mailto:je028770@gmail.com">je028770@gmail.com</a></p>
 			</div>
 
-		</div>
+			<div class="pic_on_left">
 
-		<div class="pic_on_left">
+				<img class="member_img" alt="Profile picture"
+					src="/resources/img/about/Shin.jpg">
 
-			<img class="member_img" alt="Profile picture"
-				src="/resources/img/about/Shin.jpg">
+				<div class="member_desc">
+					<h1>Shin</h1>
+					<p>멋진 Shin</p>
+					<p>
+						<a href="mailto:smy11go@gmail.com">smy11go@gmail.com</a>
+					</p>
+				</div>
 
-			<div class="member_desc">
-				<h1>Shin</h1>
-				<p>멋진 Shin</p>
-				<p><a href="mailto:smy11go@gmail.com">smy11go@gmail.com</a></p>
 			</div>
 
-		</div>
+			<div class="join_container">
 
-		<div class="join_container">
+				<a href="contact">
+					Join Us&nbsp;
+					<img class="join_button" alt="Button"
+						src="/resources/img/about/move_btn.png">
+				</a>
 
-			<div class="join_text">Join Us</div>
-
-			<a href="contact">
-				<img class="join_button" alt="Button"
-					src="/resources/img/about/move_btn.png">
-			</a>
+			</div>
 
 		</div>
 

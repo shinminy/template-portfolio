@@ -15,27 +15,24 @@ body {
 }
 
 .error_message {
-	margin: 40px auto;
+	margin-bottom: 40px;
 	text-align: center;
 	font-weight: bold;
 	font-size: 20px;
 }
 
 .back_to_home_container {
-	display: flex;
-	justify-content: center;
 	width: 400px;
-	line-height: 60px;
-}
-
-.back_to_home_text {
-	margin-right: 16px;
-	font-weight: bold;
-	font-size: 44px;
 }
 
 .back_to_home_container a {
 	text-decoration: none;
+	color: initial;
+	display: flex;
+	justify-content: center;
+	line-height: 60px;
+	font-weight: bold;
+	font-size: 44px;
 }
 
 .home_button {
