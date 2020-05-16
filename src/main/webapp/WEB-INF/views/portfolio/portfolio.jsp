@@ -12,56 +12,58 @@
 <body>
 	
 	<%@ include file="/WEB-INF/views/header/headerBox.jsp"%>
-	
-	<div class="portfolio_container">
-		<input type="hidden" value="portfolio_main" id="currentPage">
-		
-		<div class="portfolio_img_container">
-			<div class="project_name">
-				<h1>
-					COLLA
-				</h1>
+	<div class="body_container">
+		<div class="portfolio_container">
+			<input type="hidden" value="portfolio_main" id="currentPage">
+			
+			<div class="portfolio_img_container">
+				<div class="project_name">
+					<h1>
+						COLLA
+					</h1>
+				</div>
+				<a href="portfolio/portfolio-a">
+					<img class="portfolio_img" alt="Amy's portfolio"
+						src="/resources/img/portfolio/portfolio-a.jpg" >
+				</a>
 			</div>
-			<a href="portfolio/portfolio-a">
-				<img class="portfolio_img" alt="Amy's portfolio"
-					src="/resources/img/portfolio/portfolio-a.jpg" >
-			</a>
-		</div>
-		
-		<div class="portfolio_img_container">
-			<div class="project_name">
-				<h1>
-					Forest
-				</h1>
+			
+			<div class="portfolio_img_container">
+				<div class="project_name">
+					<h1>
+						Forest
+					</h1>
+				</div>
+				<a href="portfolio/portfolio-j">
+					<img class="portfolio_img" alt="Jenny's portfolio"
+						src="/resources/img/portfolio/portfolioJ/forest5.png">
+				</a>
 			</div>
-			<a href="portfolio/portfolio-j">
-				<img class="portfolio_img" alt="Jenny's portfolio"
-					src="/resources/img/portfolio/portfolioJ/forest5.png">
-			</a>
-		</div>
-		
-		<div class="portfolio_img_container">
-			<div class="project_name">
-				<h1>
-					WILL
-				</h1>
+			
+			<div class="portfolio_img_container">
+				<div class="project_name">
+					<h1>
+						WILL
+					</h1>
+				</div>
+				<a href="portfolio/portfolio-s">
+					<img class="portfolio_img" alt="Shin's portfolio"
+						src="/resources/img/portfolio/portfolioS/WILL-background.png">
+				</a>
 			</div>
-			<a href="portfolio/portfolio-s">
-				<img class="portfolio_img" alt="Shin's portfolio"
-					src="/resources/img/portfolio/portfolioS/WILL-background.png">
-			</a>
-		</div>
-		
-		<div class="comming_soon_img_container">
-			<img class="comming_soon_img" alt="Minee Search"
-				src="/resources/img/portfolio/Minee_Search-main.png">
-			<div class="comming_soon">
-				<h1>
-					comming soon...
-				</h1>
+			
+			<div class="comming_soon_img_container">
+				<img class="comming_soon_img" alt="Minee Search"
+					src="/resources/img/portfolio/Minee_Search-main.png">
+				<div class="comming_soon">
+					<h1>
+						comming soon...
+					</h1>
+				</div>
 			</div>
+		
 		</div>
-	
+
 	</div>
 
 </body>
