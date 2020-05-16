@@ -31,13 +31,18 @@ public class PortfolioController {
 	}
 	
 	@RequestMapping(value = "/portfolio-a", method = RequestMethod.GET)
-	public String showPortfolioA() {
+	public String showPortfolioA(HttpServletRequest request) {
+		String currentTime = sdf.format(Calendar.getInstance().getTime());
+		logger.info("[{}] {} accesses to Portfolio A page.", currentTime, ClientUtils.getRemoteIP(request));
+		
 		return (jspFile + "A");
 	}
 	
 	@RequestMapping(value = "/portfolio-j", method = RequestMethod.GET)
-	public String Contact() {
-		System.out.println("access to j");
+	public String Contact(HttpServletRequest request) {
+		String currentTime = sdf.format(Calendar.getInstance().getTime());
+		logger.info("[{}] {} accesses to Portfolio J page.", currentTime, ClientUtils.getRemoteIP(request));
+		
 		return (jspFile + "J");
 	}
 	
