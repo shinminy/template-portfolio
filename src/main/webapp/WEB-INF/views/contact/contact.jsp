@@ -1,6 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ include file = "/WEB-INF/views/contact/contactMap.jsp"%>
-<% request.setCharacterEncoding("UTF-8"); %>
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/resources/css/common/reset.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/contact/contact.css" />
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCt1dBoMQ4TbIL__e24JVMgpDPcjOXop0U"></script>
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="/resources/js/contact/contact.js"></script>
+<title>Minee - Contact</title>
 </head>
 <body onload="initialize()">
 <%@ include file="/WEB-INF/views/header/headerBox.jsp"%>
@@ -16,19 +23,17 @@
 					<p class=contact_info_content>ceres.minee@gmail.com</p>
 					<h3 class=contact_info_title>SNS</h3>
 					<button class="fb_btn" onclick="location.href=window.open('http://www.facebook.com/Minee-108917280800775/?moda=admin_todo_tour')"></button>
-					
 					<button class="is_btn" onclick="location.href=window.open('http://www.instagram.com/minee_ceres/')"></button>
 				</div>
 				<div class=contact_msg>
-				<form class="mail_form" name="mailForm" method="post" accept-charset="utf-8">
-				
+				<form class="mail_form" name="mailForm" method="post">
 					<h3 class=contact_info_title>이름</h3>
-					<input type="text" name="user_name" placeholder="이름"/>
+					<input class="user_name" type="text" name="user_name" placeholder="이름"/>
 					<h3 class=contact_info_title>메일주소</h3>
-					<input type="text" name="user_mail" placeholder="메일주소"/>
+					<input class="user_mail" type="text" name="user_mail" placeholder="메일주소"/>
 					<h3 class=contact_info_title>메세지</h3>
-					<input class="msg" type="text" name="user_msg" placeholder="메세지"/>
-					<input type="submit" onclick="send_mail()" value="전송">
+					<input class="msg user_msg" type="text" name="user_msg" placeholder="메세지"/>
+					<input type="submit" value="전송">
 				</form> 
 				</div>
 			</div>
