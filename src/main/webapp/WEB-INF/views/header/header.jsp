@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <link rel="stylesheet" type="text/css" href="/resources/css/header/header.css" />
+<script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 <script src="/resources/js/header/header.js"></script>
 <div class="header_container">
 	<div class="header_content_container">
