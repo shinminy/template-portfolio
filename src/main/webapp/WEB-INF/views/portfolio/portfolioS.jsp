@@ -19,6 +19,7 @@
 	<%@ include file="/WEB-INF/views/header/headerBox.jsp"%>
 	
 	<div class="templateS_container">
+		<input type="hidden" value="portfolio_s" id="currentPage">
 	
 		<div class="templateS_bg_container">
 			<img class="templateS_bg_img" alt="Background image"

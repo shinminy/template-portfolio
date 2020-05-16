@@ -14,6 +14,7 @@
 	<%@ include file="/WEB-INF/views/header/headerBox.jsp"%>
 
 	<div class="about_container">
+		<input type="hidden" value="about" id="currentPage">
 
 		<div class="pic_on_left">
 

@@ -14,6 +14,7 @@
 	<%@ include file="/WEB-INF/views/header/headerBox.jsp"%>
 	
 	<div class="portfolio_container">
+		<input type="hidden" value="portfolio_main" id="currentPage">
 		
 		<div class="portfolio_img_container">
 			<div class="project_name">

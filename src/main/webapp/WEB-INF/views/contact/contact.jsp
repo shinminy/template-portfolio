@@ -5,6 +5,7 @@
 <body onload="initialize()">
 <%@ include file="/WEB-INF/views/header/headerBox.jsp"%>
 	<div class=contact_container>
+		<input type="hidden" value="contact" id="currentPage">
 		<div class ="map" id="map_canvas"></div>
 		<div class = contact_txt>
 			<div class= contact_info>
