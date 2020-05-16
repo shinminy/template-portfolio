@@ -66,6 +66,10 @@ templetJ_subtitle{
 	vertical-align:middle;
 }
 
+.templetJ_capture{
+	display:none;
+}
+
 
 @media ( min-width : 1070px) and (max-width:1260px) {
 	.templetJ_name{
