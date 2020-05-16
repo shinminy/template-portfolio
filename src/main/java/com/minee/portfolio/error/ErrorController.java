@@ -18,7 +18,7 @@ import com.minee.portfolio.portfolio.PortfolioController;
 @RequestMapping("error")
 public class ErrorController {
 	
-	private final Logger logger = LoggerFactory.getLogger(PortfolioController.class);
+	private final Logger logger = LoggerFactory.getLogger(ErrorController.class);
 	private final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 	
 	private final String attributeName = "message";

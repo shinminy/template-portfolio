@@ -1,5 +1,26 @@
 @charset "UTF-8";
 
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+input[type="submit" i] {
+}
+
 .contact_container{
 	width: 80%;
 	margin: 20px auto;
@@ -39,7 +60,7 @@
 	color: orange;
 }
 .fb_btn{
-	background: url( "../../resources/img/contact/fbBtn.svg" ) no-repeat;
+	background: url( "/resources/img/contact/fbBtn.svg" ) no-repeat;
 	width: 40px;
 	height: 40px;
 	background-size: 100%;
@@ -48,7 +69,7 @@
 }
 
 .is_btn{
-	background: url( "../../resources/img/contact/isBtn.svg" ) no-repeat;
+	background: url( "/resources/img/contact/isBtn.svg" ) no-repeat;
 	width: 40px;
 	height: 40px;
 	background-size: 100%;
@@ -90,13 +111,12 @@
 	width:100%;
 	}
 	
-	.contact_txt .contact_info{
-	box-sizing: border-box;
-	width: 100%;
-	margin: 20px auto;	
+	.contact_txt {
+	width: 90%;
+	margin: auto;
 	}
 	
-	.contact_txt .contact_msg{
+	.contact_txt .contact_info, .contact_txt .contact_msg{
 	box-sizing: border-box;
 	width: 100%;
 	margin: 20px auto;
