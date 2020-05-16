@@ -19,8 +19,8 @@
 	<%@ include file="/WEB-INF/views/header/headerBox.jsp"%>
 
 	<div class="body_container">
-
 		<div class="templetJ_container">
+			<input type="hidden" value="portfolio_j" id="currentPage">
 			
 			<div class=templetJ_overview>
 			
