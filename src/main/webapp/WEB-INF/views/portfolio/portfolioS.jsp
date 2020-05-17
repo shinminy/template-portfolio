@@ -103,7 +103,7 @@
 				
 			</div>
 			
-			<a class="store_link fade_in_up_with_scrolling"
+			<a class="store_link fade_in_up_with_scrolling" target="_blank"
 				href="https://play.google.com/store/apps/details?id=com.willy.will&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
 				<img class="google_play_badge" alt="Google Play badge"
 					src="/resources/img/portfolio/portfolioS/google-play-badge.png">
