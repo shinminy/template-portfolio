@@ -97,11 +97,10 @@ templetJ_subtitle{
 	position: absolute;
 	width: 940px;
 	height: auto;
-	border: 5px solid black;
 	border-radius: 25px;
 	overflow: hidden;
 	margin-top:5%;
-	margin-left:20%;
+	margin-left:25%;
 	margin-bottom:5%;
 }
 
