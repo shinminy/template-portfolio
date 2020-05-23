@@ -4,6 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Minee</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="/resources/css/common/reset.css" />
 <link rel="stylesheet" type="text/css" href="/resources/css/main/main.css" />
 <link rel="stylesheet" type="text/css" href="/resources/css/main/onepage-scroll.css" />
