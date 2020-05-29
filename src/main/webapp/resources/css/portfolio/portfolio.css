@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-h1 {
-	font-weight: bold;
-	font-size: 3.2vw;
+a {
+	text-decoration: none;
+	color: initial;
 }
 
 .portfolio_container {
@@ -19,11 +19,17 @@ h1 {
 	text-align: center;
 }
 
+.portfolio_img, .comming_soon_img {
+	width: 100%;
+}
+
 .project_name, .comming_soon {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	font-weight: bold;
+	font-size: 3.2vw;
 }
 
 .project_name {
@@ -32,10 +38,6 @@ h1 {
 
 .comming_soon {
 	color: white;
-}
-
-.portfolio_img, .comming_soon_img {
-	width: 100%;
 }
 
 .comming_soon_img {
@@ -52,8 +54,24 @@ h1 {
 
 @media ( max-width : 800px) {
 	
-	h1 {
+	a {
+		display: block;
+	}
+	
+	.project_name, .comming_soon {
 		font-size: 6.4vw;
+	}
+
+	.project_name {
+		display: inline-block;
+		position: static;
+		transform: translate(0, 0);
+		margin-top: 4vw;
+		opacity: 1;
+	}
+
+	.portfolio_img_container:hover .portfolio_img {
+		opacity: 1;
 	}
 	
 	.portfolio_img_container, .comming_soon_img_container {

@@ -26,7 +26,7 @@
 }
 
 .header_content_container .current>a {
-	    font-weight: bold;
+	font-weight: bold;
 }
 
 .logo {
@@ -51,14 +51,14 @@
 
 .header_container nav {
 	position: relative;
-	margin-left: 64px;
-	width: calc(100% - 600px);
+	margin-left: 23px;
+	width: calc(100% - 500px);
 	height: 100%;
 	float: left;
 }
 
 .header_container nav ul {
-	width: 600px;
+	width: 500px;
 	position: absolute;
 	top: 9px;
 }
@@ -86,9 +86,12 @@
 	color: #FFA601;
 }
 
-.header_container nav .portfolio_sub_menu {
+.gnb .portfolio_sub_menu {
 	display: none;
-	width: 192px;
+}
+
+.header_container nav .portfolio_sub_menu {
+	width: 160px;
 	height: 119px;
 	top: 39px;
 	background-color: rgba(0, 0, 0, 0.9);
@@ -211,12 +214,8 @@
 	color: #fff;
 }
 
-.m-gnb .gnbUl .portfolio_sub_menu {
-	display: none;
-}
-
 .m-gnb .gnbUl .portfolio_sub_menu li a {
-	padding: 10px 60px;
+	padding: 10px 0px 10px 50px;
 	font-size: 15px;
 }
 

@@ -17,38 +17,32 @@
 			<input type="hidden" value="portfolio_main" id="currentPage">
 			
 			<div class="portfolio_img_container">
-				<div class="project_name">
-					<h1>
-						COLLA
-					</h1>
-				</div>
 				<a href="portfolio/portfolio-a">
 					<img class="portfolio_img" alt="Amy's portfolio"
 						src="/resources/img/portfolio/portfolio-a.png" >
 				</a>
-			</div>
-			
-			<div class="portfolio_img_container">
-				<div class="project_name">
-					<h1>
-						Forest
-					</h1>
-				</div>
-				<a href="portfolio/portfolio-j">
-					<img class="portfolio_img" alt="Jenny's portfolio"
-						src="/resources/img/portfolio/portfolio-j.png">
+				<a class="project_name" href="portfolio/portfolio-a">
+					COLLA
 				</a>
 			</div>
 			
 			<div class="portfolio_img_container">
-				<div class="project_name">
-					<h1>
-						WILL
-					</h1>
-				</div>
+				<a href="portfolio/portfolio-j">
+					<img class="portfolio_img" alt="Jenny's portfolio"
+						src="/resources/img/portfolio/portfolio-j.png">
+				</a>
+				<a class="project_name" href="portfolio/portfolio-j">
+					Forest
+				</a>
+			</div>
+			
+			<div class="portfolio_img_container">
 				<a href="portfolio/portfolio-s">
 					<img class="portfolio_img" alt="Shin's portfolio"
 						src="/resources/img/portfolio/portfolio-s.png">
+				</a>
+				<a class="project_name" href="portfolio/portfolio-s">
+					WILL
 				</a>
 			</div>
 			
@@ -56,9 +50,7 @@
 				<img class="comming_soon_img" alt="Minee Search"
 					src="/resources/img/portfolio/Minee_Search-main.png">
 				<div class="comming_soon">
-					<h1>
-						comming soon...
-					</h1>
+					comming soon...
 				</div>
 			</div>
 		

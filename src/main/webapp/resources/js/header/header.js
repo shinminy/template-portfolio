@@ -6,7 +6,7 @@ $(function() {
 		return false;
 	});
 
-	$(".portfolio_menu").hover(
+	$(".gnb .portfolio_menu").hover(
 		function() {
 			$(".portfolio_sub_menu", this).stop().slideDown(600)}, 
 		function() {

@@ -21,8 +21,8 @@
 			</div>
 			<ul class="gnbUl menu">
 				<li><a lang="en" href="${contextPath}/about"> About </a></li>
-				<li class="portfolio_menu">
-					<a lang="en" href="${contextPath}/portfolio"> Portfolio <i class="fas fa-chevron-down"></i></a>
+				<li>
+					<a lang="en" href="${contextPath}/portfolio"> Portfolio </a>
 					<ul class="portfolio_sub_menu">
 						<li><a lang="en" href="${contextPath}/portfolio/portfolio-a"> Portfolio-A </a></li>
 						<li><a lang="en" href="${contextPath}/portfolio/portfolio-j"> Portfolio-J </a></li>
