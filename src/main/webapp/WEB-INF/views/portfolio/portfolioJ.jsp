@@ -80,7 +80,7 @@
 				</p>
 			</div>
 			
-			<div id="imgslide" class="carousel slide" data-ride="carousel">
+			<div id="imgslide" class="carousel slide" data-ride="carousel" data-interval="2000">
 				<div class="carousel-inner">
 			    <div class="carousel-item active">
 			      <img src="/resources/img/portfolio/portfolioJ/forest1.png" alt="포레스트 메인" width="1100" height="683">

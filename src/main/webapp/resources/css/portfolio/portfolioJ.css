@@ -99,7 +99,19 @@ templetJ_subtitle{
     height:	100%;
     border-radius: 15px;
   }
-  
+
+@media ( min-width : 1308px) and (max-width:1406px) {
+	.templetJ_desc{
+	margin-right: 10%;
+	}
+}
+@media ( min-width : 1261px) and (max-width:1307px) {
+	.templetJ_desc{
+	margin-right: 10%;
+    font-size: 100%;
+	}
+}
+
 @media ( min-width : 1146px) and (max-width:1260px) {
 	.templetJ_name{
 	margin-left: 10%;
@@ -115,7 +127,7 @@ templetJ_subtitle{
 	
 	.templetJ_desc{
 	margin-right: 10%;
-	
+    font-size: 100%;
 	}
 	.templetJ_archImg{
 	width: 83%;
