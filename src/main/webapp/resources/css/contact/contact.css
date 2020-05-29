@@ -18,8 +18,6 @@ p {
     margin-inline-end: 0px;
 }
 
-input[type="submit" i] {
-}
 
 .contact_container{
 	width: 80%;
@@ -35,7 +33,7 @@ input[type="submit" i] {
 	text-align: center;
 }
 
-<!--수평정렬-->
+/*수평정*/
 .contact:after{
 	clear:both;
 	display:block;
@@ -128,7 +126,7 @@ input[type="submit" i] {
 }
 @media ( max-width : 500px) {
 	.contact_container{
-	width:100%;
+	width:94%;
 	}
 	
 	.contact_txt .contact_info{
