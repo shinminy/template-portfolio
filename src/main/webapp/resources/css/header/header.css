@@ -51,14 +51,14 @@
 
 .header_container nav {
 	position: relative;
-	margin-left: 64px;
-	width: calc(100% - 600px);
+	margin-left: 23px;
+	width: calc(100% - 500px);
 	height: 100%;
 	float: left;
 }
 
 .header_container nav ul {
-	width: 600px;
+	width: 500px;
 	position: absolute;
 	top: 9px;
 }
@@ -91,7 +91,7 @@
 }
 
 .header_container nav .portfolio_sub_menu {
-	width: 192px;
+	width: 160px;
 	height: 119px;
 	top: 39px;
 	background-color: rgba(0, 0, 0, 0.9);
