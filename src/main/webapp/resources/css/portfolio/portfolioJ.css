@@ -33,15 +33,15 @@ p {
 }
 templetJ_subtitle{
 	line-height: 20%;
-	margin-top: -10%;
+	padding-bottom: 19px;
 }
 .templetJ_desc{
 	color: #808080;
+	float: right;
+	margin-right: 15%;
+	margin-left: 10px;
 }
 
-.templetJ_txt{
-	width: 80%;
-}
 .templetJ_overview:after{
 	clear:both;
 	display:block;
@@ -54,16 +54,11 @@ templetJ_subtitle{
 	margin-left: 20%; 
 	margin-right: 10px;
 }
-.templetJ_overview .templetJ_desc{
-	float: right;
-	margin-right: 15%;
-	margin-left: 10px;
-}
 
-.templetJ_overview .templetJ_img{
+.templetJ_overview img{
 	float: right;
 	width: 60%;
-	padding-top: -20px;
+	padding-bottom: 20px;
 	margin-right: 10%;
 }
 
@@ -75,7 +70,8 @@ templetJ_subtitle{
 	text-align: center;
 }
 .templetJ_archImg{
-	width: 80%;
+	width: 68%;
+    margin-left: 7%;
 }
 
 .templetJ_vid{
@@ -87,113 +83,127 @@ templetJ_subtitle{
 }
 
 .templetJ_vid iframe{
-	width: 1000px;
+	width: 1100px;
 	height: 562px;
 	border: 0px;
 	border-radius:15px;
+	margin-left: 10%;
 }
 
-.templetJ_captureContainer{
-	position: absolute;
-	width: 940px;
-	height: auto;
-	border-radius: 25px;
-	overflow: hidden;
-	margin-top:5%;
-	margin-left:25%;
-	margin-bottom:5%;
+#imgslide{
+	margin: 10px 0px 20px 22%;
+    width: 65%;
 }
-
-.templateJ_slide_imgs {
-	white-space: nowrap;
-}
-
-.templetJ_capture {
-	float: left;
-	width: 940px;
-}
-
-@media ( min-width : 1220px) and (max-width:1260px) {
+.carousel-inner img {
+    width: 100%;
+    height:	100%;
+    border-radius: 15px;
+  }
+  
+@media ( min-width : 1146px) and (max-width:1260px) {
 	.templetJ_name{
 	margin-left: 10%;
 	}
+	
+	.templetJ_overview img{
+	padding-bottom: 16px;
+	}
+	
 	.templetJ_overview .templetJ_title{
 	margin-left: 10%;
 	}
 	
-	.templetJ_overview .templetJ_desc{
-	margin-left:10%;
+	.templetJ_desc{
 	margin-right: 10%;
 	
 	}
+	.templetJ_archImg{
+	width: 83%;
+    margin-left: 2%;
+}
 	.templetJ_vid iframe{
 	width: 80%;
-	height: 600px;
+    height: 600px;
+    margin-left: -2%;
+}
+	#imgslide{
+    width: 79%;
+    margin-left: 11%;
 }
 }
 
-@media ( min-width : 1080px) and (max-width:1260px){
-	.templetJ_captureContainer{
-	margin-left: 10%;
-	}
-}
-
-@media ( min-width : 940px) and (max-width:1069px) {
+@media ( min-width : 986px) and (max-width:1145px) {
 
 	.templetJ_name{
 	margin-left: 10%;
-	}
-	.templetJ_overview .templetJ_title{
-	margin-left: 10%;
-	}
-	.templetJ_overview .templetJ_desc{
-	margin-left: 5%;
-	margin-right:5%;
-	}
-	.templetJ_vid iframe{
-	width: 80%;
-	height: 400px;
-}
-	.templetJ_captureContainer{
-	margin-left: 18%;
-	width: 700px;
-	}
-	.templetJ_capture {
-	width: 700px;
-	}
-}
-
-
-@media ( min-width : 800px) and (max-width:939px) {
-
-	.templetJ_name{
-	margin-left: 10%;
-	}
-	.templetJ_overview .templetJ_title{
-	margin-left: 10%;
-	}
-	.templetJ_overview .templetJ_desc{
-	float:left;
-	margin-left: 10%;
-	}
-	.templetJ_overview .templetJ_img{
-	width: 80%;
-	padding-top: -20px;
-	margin-left: 10%;
-	margin-right: 10%;
-	}
-	.templetJ_vid iframe{
-	width: 80%;
-	height: 400px;
 	}
 	
-	.templetJ_captureContainer{
-	margin-left: 18%;
-	width: 700px;
+	.templetJ_overview img{
+	padding-bottom: 13px;
 	}
-	.templetJ_capture {
-	width: 700px;
+	
+	.templetJ_overview .templetJ_title{
+	margin-left: 10%;
 	}
+	
+	.templetJ_desc{
+	margin-right: 10%;
+    font-size: 100%;
+	
+	}
+	.templetJ_archImg{
+	width: 83%;
+    margin-left: 2%;
+}
+	.templetJ_vid iframe{
+	width: 80%;
+    height: 600px;
+    margin-left: -2%;
+}
+	#imgslide{
+    width: 79%;
+    margin-left: 11%;
+}
+}
+
+
+@media ( min-width : 800px) and (max-width:985px) {
+
+	.templetJ_name{
+	margin-left: 10%;
+	}
+	
+	.templetJ_overview img{
+	padding-bottom: 11px;
+	}
+	
+	.templetJ_overview .templetJ_title{
+	margin-left: 10%;
+	}
+	
+	.templetJ_desc{
+	margin-left: 10%;
+	
+	}
+	
+	.templetJ_overview .templetJ_desc{
+	margin-right: 22%;
+	
+	}
+	
+	.templetJ_archImg{
+	width: 83%;
+    margin-left: 2%;
+}
+	.templetJ_vid iframe{
+	width: 80%;
+    height: 600px;
+    margin-left: -2%;
+}
+	#imgslide{
+    width: 79%;
+    margin-left: 11%;
+}
 }
 
 
@@ -201,28 +211,35 @@ templetJ_subtitle{
 	.templetJ_name{
 	margin-left: 10%;
 	}
+	
+	.templetJ_overview img{
+	padding-bottom: 6px;
+	}
+	
 	.templetJ_overview .templetJ_title{
 	margin-left: 10%;
 	}
-	.templetJ_overview .templetJ_desc{
+	
+	.templetJ_desc{
 	margin-left: 10%;
-	}
-	.templetJ_overview .templetJ_img{
-	width: 80%;
-	padding-top: -20px;
-	margin-left: 10%;
-	margin-right: 10%;
-	}
-	.templetJ_vid iframe{
-	width: 80%;
-	height: 400px;
+	
 	}
 	
-	.templetJ_captureContainer{
-	width: 400px;
-	margin-left: 8%;
+	.templetJ_overview .templetJ_desc{
+	margin-right: 22%;
+	
 	}
-	.templetJ_capture {
-	width: 400px;
-	}
+	
+	.templetJ_archImg{
+	width: 83%;
+    margin-left: 2%;
+}
+	.templetJ_vid iframe{
+	width: 80%;
+    margin-left: -2%;
+}
+	#imgslide{
+    width: 90%;
+    margin-left: 6%;
+}
 }
