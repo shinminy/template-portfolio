@@ -110,8 +110,8 @@
 			      <img src="/resources/img/portfolio/portfolioJ/forest9.png" alt="포레스트 엔딩" width="1100" height="683">
 			    </div>
 			  </div>
+			</div>
 		</div>
 	</div>
-</div>
 </body>
 </html>
