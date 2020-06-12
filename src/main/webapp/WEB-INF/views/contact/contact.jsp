@@ -23,8 +23,8 @@
 					<h3 class=contact_info_title>Mail</h3>
 					<p class=contact_info_content>ceres.minee@gmail.com</p>
 					<h3 class=contact_info_title>SNS</h3>
-					<button class="fb_btn" onclick="location.href=window.open('http://www.facebook.com/Minee-108917280800775/?moda=admin_todo_tour')"></button>
-					<button class="is_btn" onclick="location.href=window.open('http://www.instagram.com/minee_ceres/')"></button>
+					<button class="fb_btn" onclick="window.open('http://www.facebook.com/Minee-108917280800775/?moda=admin_todo_tour')"></button>
+					<button class="is_btn" onclick="window.open('http://www.instagram.com/minee_ceres/')"></button>
 				</div>
 				<div class=contact_msg>
 				<form class="mail_form" name="mailForm" method="post">

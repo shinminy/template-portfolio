@@ -199,8 +199,7 @@ templetJ_subtitle{
 	}
 	
 	.templetJ_overview .templetJ_desc{
-	margin-right: 22%;
-	
+	float: left;
 	}
 	
 	.templetJ_archImg{
