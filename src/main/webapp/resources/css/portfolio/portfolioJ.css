@@ -105,12 +105,12 @@ templetJ_subtitle{
 	margin-right: 10%;
 	}
 }
-@media ( min-width : 1261px) and (max-width:1307px) {
+ @media ( min-width : 1261px) and (max-width:1307px) {
 	.templetJ_desc{
-	margin-right: 10%;
-    font-size: 100%;
+	margin-left: 20%;
+	float:left;
 	}
-}
+} 
 
 @media ( min-width : 1146px) and (max-width:1260px) {
 	.templetJ_name{
@@ -126,8 +126,8 @@ templetJ_subtitle{
 	}
 	
 	.templetJ_desc{
-	margin-right: 10%;
-    font-size: 100%;
+	float:left;
+	margin-left:10%;
 	}
 	.templetJ_archImg{
 	width: 83%;
@@ -159,8 +159,8 @@ templetJ_subtitle{
 	}
 	
 	.templetJ_desc{
-	margin-right: 10%;
-    font-size: 100%;
+	float:left;
+	margin-left: 10%;
 	
 	}
 	.templetJ_archImg{
